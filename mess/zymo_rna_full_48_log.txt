@@ -1,0 +1,208 @@
+2022-01-05 16:02:10.071444
+Processing 48 samples using 6 columns
+Using 7 racks of p300 tips in slot(s) ['8', '5', '6', '7', '9']
+'vol.to.add' refers to the volume added over the entire protocol,i.e. 500 * 2 = 1000 ul ethanol
+lysis+beads
+{'reservoir.type': '96well', 'reservoir.volume': [1606.0, 1606.0, 1606.0], 'vol.to.add': 730, 'total.volume': 38544.0, 'reservoir.number': 3, 'well.uses': [2, 2, 2]}
+lysis+Sheild
+{'reservoir.type': '96well', 'reservoir.volume': [1650.0, 1650.0], 'vol.to.add': 500, 'total.volume': 26400.0, 'reservoir.number': 2, 'well.uses': [3, 3]}
+Magbinding Beads
+{'reservoir.type': '96well', 'reservoir.volume': 198.0, 'vol.to.add': 30, 'total.volume': 1584.0, 'reservoir.number': 1, 'well.uses': [6]}
+Wash 1 Buffer
+{'reservoir.type': '96well', 'reservoir.volume': [1650.0, 1650.0], 'vol.to.add': 500, 'total.volume': 26400.0, 'reservoir.number': 2, 'well.uses': [3, 3]}
+Wash 2 Buffer
+{'reservoir.type': '96well', 'reservoir.volume': [1650.0, 1650.0], 'vol.to.add': 500, 'total.volume': 26400.0, 'reservoir.number': 2, 'well.uses': [3, 3]}
+Ethanol Buffer 0
+{'reservoir.type': 'seperate_96well', 'reservoir.volume': [1540.0, 1540.0, 1540.0], 'vol.to.add': 700, 'total.volume': 36960.0, 'reservoir.number': 3, 'well.uses': [2, 2, 2]}
+Ethanol Buffer 1
+{'reservoir.type': 'seperate_96well', 'reservoir.volume': [1100.0, 1100.0, 1100.0, 1100.0, 1100.0, 1100.0], 'vol.to.add': 1000, 'total.volume': 52800.0, 'reservoir.number': 6, 'well.uses': [1, 1, 1, 1, 1, 1]}
+Ethanol Buffer 2
+{'reservoir.type': 'seperate_96well', 'reservoir.volume': [1100.0, 1100.0, 1100.0, 1100.0, 1100.0, 1100.0], 'vol.to.add': 1000, 'total.volume': 52800.0, 'reservoir.number': 6, 'well.uses': [1, 1, 1, 1, 1, 1]}
+Ethanol Buffer 3
+{'reservoir.type': 'seperate_96well', 'reservoir.volume': [1980.0, 1980.0], 'vol.to.add': 600, 'total.volume': 31680.0, 'reservoir.number': 2, 'well.uses': [3, 3]}
+Ethanol Buffer 4
+{'reservoir.type': 'seperate_96well', 'reservoir.volume': [1100.0, 1100.0, 1100.0, 1100.0, 1100.0, 1100.0], 'vol.to.add': 1000, 'total.volume': 52800.0, 'reservoir.number': 6, 'well.uses': [1, 1, 1, 1, 1, 1]}
+DNAse I Reaction Mix
+{'reservoir.type': '96well', 'reservoir.volume': 330.0, 'vol.to.add': 50, 'total.volume': 2640.0, 'reservoir.number': 1, 'well.uses': [6]}
+DNA/RNA Prep Buffer
+{'reservoir.type': '96well', 'reservoir.volume': [1650.0, 1650.0], 'vol.to.add': 500, 'total.volume': 26400.0, 'reservoir.number': 2, 'well.uses': [3, 3]}
+Water
+{'reservoir.type': '96well', 'reservoir.volume': 396.0, 'vol.to.add': 60, 'total.volume': 3168.0, 'reservoir.number': 1, 'well.uses': [6]}
+magnetic module in slot 8
+liquid waste in slot 11
+reagent 96-well plate in slot 3
+elution (DNA) 96-well plate in slot 10
+p300 multichannel mounted on left arm
+Debug start:
+{'reservoir.type': '96well', 'reservoir.volume': [1606.0, 1606.0, 1606.0], 'vol.to.add': 730, 'total.volume': 38544.0, 'reservoir.number': 3, 'well.uses': [2, 2, 2]}
+Reagent Plate on 2
+1
+Debug start:
+{'reservoir.type': '96well', 'reservoir.volume': [1650.0, 1650.0], 'vol.to.add': 500, 'total.volume': 26400.0, 'reservoir.number': 2, 'well.uses': [3, 3]}
+Reagent Plate on 2
+4
+Debug start:
+{'reservoir.type': '96well', 'reservoir.volume': 198.0, 'vol.to.add': 30, 'total.volume': 1584.0, 'reservoir.number': 1, 'well.uses': [6]}
+Reagent Plate on 2
+6
+Debug start:
+{'reservoir.type': '96well', 'reservoir.volume': [1650.0, 1650.0], 'vol.to.add': 500, 'total.volume': 26400.0, 'reservoir.number': 2, 'well.uses': [3, 3]}
+Reagent Plate on 2
+7
+Debug start:
+{'reservoir.type': '96well', 'reservoir.volume': [1650.0, 1650.0], 'vol.to.add': 500, 'total.volume': 26400.0, 'reservoir.number': 2, 'well.uses': [3, 3]}
+Reagent Plate on 2
+9
+Debug start:
+{'reservoir.type': 'seperate_96well', 'reservoir.volume': [1100.0, 1100.0, 1100.0, 1100.0, 1100.0, 1100.0], 'vol.to.add': 1000, 'total.volume': 52800.0, 'reservoir.number': 6, 'well.uses': [1, 1, 1, 1, 1, 1]}
+Ethanol Plate on 3
+1
+Debug start:
+{'reservoir.type': 'seperate_96well', 'reservoir.volume': [1100.0, 1100.0, 1100.0, 1100.0, 1100.0, 1100.0], 'vol.to.add': 1000, 'total.volume': 52800.0, 'reservoir.number': 6, 'well.uses': [1, 1, 1, 1, 1, 1]}
+Ethanol Plate on 3
+7
+Debug start:
+{'reservoir.type': 'seperate_96well', 'reservoir.volume': [1540.0, 1540.0, 1540.0], 'vol.to.add': 700, 'total.volume': 36960.0, 'reservoir.number': 3, 'well.uses': [2, 2, 2]}
+Ethanol Plate on 3
+1
+Debug start:
+{'reservoir.type': 'seperate_96well', 'reservoir.volume': [1980.0, 1980.0], 'vol.to.add': 600, 'total.volume': 31680.0, 'reservoir.number': 2, 'well.uses': [3, 3]}
+Ethanol Plate on 3
+4
+Debug start:
+{'reservoir.type': 'seperate_96well', 'reservoir.volume': [1100.0, 1100.0, 1100.0, 1100.0, 1100.0, 1100.0], 'vol.to.add': 1000, 'total.volume': 52800.0, 'reservoir.number': 6, 'well.uses': [1, 1, 1, 1, 1, 1]}
+Ethanol Plate on 3
+6
+Debug start:
+{'reservoir.type': '96well', 'reservoir.volume': 330.0, 'vol.to.add': 50, 'total.volume': 2640.0, 'reservoir.number': 1, 'well.uses': [6]}
+Reagent Plate 2 on 4
+1
+Debug start:
+{'reservoir.type': '96well', 'reservoir.volume': [1650.0, 1650.0], 'vol.to.add': 500, 'total.volume': 26400.0, 'reservoir.number': 2, 'well.uses': [3, 3]}
+Reagent Plate 2 on 4
+2
+Debug start:
+{'reservoir.type': '96well', 'reservoir.volume': 396.0, 'vol.to.add': 60, 'total.volume': 3168.0, 'reservoir.number': 1, 'well.uses': [6]}
+Reagent Plate 2 on 4
+4
+[A1 of Sample Plate on Magnetic Module GEN2 on 1, A3 of Sample Plate on Magnetic Module GEN2 on 1, A5 of Sample Plate on Magnetic Module GEN2 on 1, A7 of Sample Plate on Magnetic Module GEN2 on 1, A9 of Sample Plate on Magnetic Module GEN2 on 1, A11 of Sample Plate on Magnetic Module GEN2 on 1]
+[A2 of Sample Plate on Magnetic Module GEN2 on 1, A4 of Sample Plate on Magnetic Module GEN2 on 1, A6 of Sample Plate on Magnetic Module GEN2 on 1, A8 of Sample Plate on Magnetic Module GEN2 on 1, A10 of Sample Plate on Magnetic Module GEN2 on 1, A12 of Sample Plate on Magnetic Module GEN2 on 1]
+[A2 of Elution Plate on 10, A4 of Elution Plate on 10, A6 of Elution Plate on 10, A8 of Elution Plate on 10, A10 of Elution Plate on 10, A12 of Elution Plate on 10]
+[A1 of Elution Plate on 10, A2 of Elution Plate on 10, A3 of Elution Plate on 10, A4 of Elution Plate on 10, A5 of Elution Plate on 10, A6 of Elution Plate on 10]
+
+
+lysis + Mag bead here:
+[1606.0, 1606.0, 1606.0]
+A1 of Reagent Plate on 2
+A2 of Reagent Plate on 2
+A3 of Reagent Plate on 2
+None
+
+
+lysis + sheild here:
+[1650.0, 1650.0]
+A4 of Reagent Plate on 2
+A5 of Reagent Plate on 2
+None
+
+
+Mag bead here:
+198.0
+A6 of Reagent Plate on 2
+None
+
+
+Wash 1 here:
+[1650.0, 1650.0]
+A7 of Reagent Plate on 2
+A8 of Reagent Plate on 2
+None
+
+
+Wash 2 here:
+[1650.0, 1650.0]
+A9 of Reagent Plate on 2
+A10 of Reagent Plate on 2
+None
+
+
+DNAse I reaction mix here:
+330.0
+A1 of Reagent Plate 2 on 4
+None
+
+
+DNA/RNA Prep buffer here:
+[1650.0, 1650.0]
+A2 of Reagent Plate 2 on 4
+A3 of Reagent Plate 2 on 4
+None
+
+
+Water here:
+396.0
+A4 of Reagent Plate 2 on 4
+None
+
+
+Ethanol here:
+[1540.0, 1540.0, 1540.0]
+A1 of Ethanol Plate on 3
+A2 of Ethanol Plate on 3
+A3 of Ethanol Plate on 3
+None
+[1100.0, 1100.0, 1100.0, 1100.0, 1100.0, 1100.0]
+A1 of Ethanol Plate on 3
+A2 of Ethanol Plate on 3
+A3 of Ethanol Plate on 3
+A4 of Ethanol Plate on 3
+A5 of Ethanol Plate on 3
+A6 of Ethanol Plate on 3
+None
+[1100.0, 1100.0, 1100.0, 1100.0, 1100.0, 1100.0]
+A7 of Ethanol Plate on 3
+A8 of Ethanol Plate on 3
+A9 of Ethanol Plate on 3
+A10 of Ethanol Plate on 3
+A11 of Ethanol Plate on 3
+A12 of Ethanol Plate on 3
+None
+[1980.0, 1980.0]
+A4 of Ethanol Plate on 3
+A5 of Ethanol Plate on 3
+None
+[1100.0, 1100.0, 1100.0, 1100.0, 1100.0, 1100.0]
+A6 of Ethanol Plate on 3
+A7 of Ethanol Plate on 3
+A8 of Ethanol Plate on 3
+A9 of Ethanol Plate on 3
+A10 of Ethanol Plate on 3
+A11 of Ethanol Plate on 3
+None
+
+
+Picking up tip from A1 of Opentrons 96 Tip Rack 300 µL on 9
+Aspirating 60.0 uL from A2 of Sample Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Dispensing 100.0 uL into A1 of Elution Plate on 10 at 150.0 uL/sec
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from A2 of Opentrons 96 Tip Rack 300 µL on 9
+Aspirating 60.0 uL from A4 of Sample Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Dispensing 100.0 uL into A2 of Elution Plate on 10 at 150.0 uL/sec
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from A3 of Opentrons 96 Tip Rack 300 µL on 9
+Aspirating 60.0 uL from A6 of Sample Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Dispensing 100.0 uL into A3 of Elution Plate on 10 at 150.0 uL/sec
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from A4 of Opentrons 96 Tip Rack 300 µL on 9
+Aspirating 60.0 uL from A8 of Sample Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Dispensing 100.0 uL into A4 of Elution Plate on 10 at 150.0 uL/sec
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from A5 of Opentrons 96 Tip Rack 300 µL on 9
+Aspirating 60.0 uL from A10 of Sample Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Dispensing 100.0 uL into A5 of Elution Plate on 10 at 150.0 uL/sec
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from A6 of Opentrons 96 Tip Rack 300 µL on 9
+Aspirating 60.0 uL from A12 of Sample Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Dispensing 100.0 uL into A6 of Elution Plate on 10 at 150.0 uL/sec
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Congratulations!

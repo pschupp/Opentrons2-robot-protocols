@@ -1,0 +1,2070 @@
+/home/daniel/Desktop/Opentrons
+0
+2022-06-02 11:19:51.519122
+Processing 96 samples using 12 columns
+Using 30 racks of p300 tips in slot(s) ['4', '5', '6', '7', '8', '9', '10']
+'vol.to.add' refers to the volume added over the entire protocol,i.e. 500*2=1000 ul ethanol
+FS1 Master Mix
+{'reservoir.type': '96well100', 'reservoir.volume': 66.0, 'vol.to.add': 5, 'total.volume': 528.0, 'reservoir.number': 1, 'well.uses': [12]}
+FS2/E1 Mix
+{'reservoir.type': '96well100', 'reservoir.volume': 132.0, 'vol.to.add': 10, 'total.volume': 1056.0, 'reservoir.number': 1, 'well.uses': [12]}
+RS Master Mix
+{'reservoir.type': '96well100', 'reservoir.volume': 66.0, 'vol.to.add': 5, 'total.volume': 528.0, 'reservoir.number': 1, 'well.uses': [12]}
+USS Master Mix
+{'reservoir.type': '96well100', 'reservoir.volume': 132.0, 'vol.to.add': 10, 'total.volume': 1056.0, 'reservoir.number': 1, 'well.uses': [12]}
+SS2/E2 Master Mix
+{'reservoir.type': '96well100', 'reservoir.volume': 66.0, 'vol.to.add': 5, 'total.volume': 528.0, 'reservoir.number': 1, 'well.uses': [12]}
+PCR/E3 Master Mix
+{'reservoir.type': '96well100', 'reservoir.volume': 105.6, 'vol.to.add': 8, 'total.volume': 844.8, 'reservoir.number': 1, 'well.uses': [12]}
+Mag Bead 1
+{'reservoir.type': '96well100', 'reservoir.volume': [176.0, 35.2], 'vol.to.add': 16, 'total.volume': 1689.6, 'reservoir.number': 2, 'well.uses': [10, 2]}
+Mag Bead 2
+{'reservoir.type': '96well100', 'reservoir.volume': [154.0, 154.0, 154.0], 'vol.to.add': 35, 'total.volume': 3696.0, 'reservoir.number': 3, 'well.uses': [4, 4, 4]}
+Ethanol
+{'reservoir.type': '96well2000', 'reservoir.volume': [1936.0, 1936.0, 1936.0], 'vol.to.add': 440, 'total.volume': 46464.0, 'reservoir.number': 3, 'well.uses': [4, 4, 4]}
+Elution Buffer
+{'reservoir.type': '96well2000', 'reservoir.volume': 1452.0, 'vol.to.add': 110, 'total.volume': 11616.0, 'reservoir.number': 1, 'well.uses': [12]}
+Purification Solution
+{'reservoir.type': '96well2000', 'reservoir.volume': 1135.2, 'vol.to.add': 86, 'total.volume': 9081.6, 'reservoir.number': 1, 'well.uses': [12]}
+magnetic module in slot 1
+liquid waste in slot 11
+rt_reagents 96-well plate in slot 3
+cold 96-well plate in slot 2
+[A1 of Opentrons 96 Tip Rack 300 µL on 4, A2 of Opentrons 96 Tip Rack 300 µL on 4, A3 of Opentrons 96 Tip Rack 300 µL on 4, A4 of Opentrons 96 Tip Rack 300 µL on 4, A5 of Opentrons 96 Tip Rack 300 µL on 4, A6 of Opentrons 96 Tip Rack 300 µL on 4, A7 of Opentrons 96 Tip Rack 300 µL on 4, A8 of Opentrons 96 Tip Rack 300 µL on 4, A9 of Opentrons 96 Tip Rack 300 µL on 4, A10 of Opentrons 96 Tip Rack 300 µL on 4, A11 of Opentrons 96 Tip Rack 300 µL on 4, A12 of Opentrons 96 Tip Rack 300 µL on 4]
+[A1 of Opentrons 96 Tip Rack 300 µL on 5, A2 of Opentrons 96 Tip Rack 300 µL on 5, A3 of Opentrons 96 Tip Rack 300 µL on 5, A4 of Opentrons 96 Tip Rack 300 µL on 5, A5 of Opentrons 96 Tip Rack 300 µL on 5, A6 of Opentrons 96 Tip Rack 300 µL on 5, A7 of Opentrons 96 Tip Rack 300 µL on 5, A8 of Opentrons 96 Tip Rack 300 µL on 5, A9 of Opentrons 96 Tip Rack 300 µL on 5, A10 of Opentrons 96 Tip Rack 300 µL on 5, A11 of Opentrons 96 Tip Rack 300 µL on 5, A12 of Opentrons 96 Tip Rack 300 µL on 5]
+p300 multichannel mounted on left arm
+
+
+FS1 mastermix here:
+66.0
+A1 of NEST 96 Well Plate 100 µL PCR Full Skirt on 3
+None
+
+
+FS2/E1 master mix here:
+132.0
+A2 of NEST 96 Well Plate 100 µL PCR Full Skirt on 3
+None
+
+
+RS mm here:
+66.0
+A3 of NEST 96 Well Plate 100 µL PCR Full Skirt on 3
+None
+
+
+USS mm here:
+132.0
+A4 of NEST 96 Well Plate 100 µL PCR Full Skirt on 3
+None
+
+
+SS2/E2 here:
+66.0
+A5 of NEST 96 Well Plate 100 µL PCR Full Skirt on 3
+None
+
+
+PCR/E3 here:
+105.6
+A6 of NEST 96 Well Plate 100 µL PCR Full Skirt on 3
+None
+
+
+mag bead 1 here:
+[176.0, 35.2]
+A7 of NEST 96 Well Plate 100 µL PCR Full Skirt on 3
+A8 of NEST 96 Well Plate 100 µL PCR Full Skirt on 3
+None
+
+
+mag bead 2 here:
+[154.0, 154.0, 154.0]
+A9 of NEST 96 Well Plate 100 µL PCR Full Skirt on 3
+A10 of NEST 96 Well Plate 100 µL PCR Full Skirt on 3
+A11 of NEST 96 Well Plate 100 µL PCR Full Skirt on 3
+None
+
+
+ethanol here:
+[1936.0, 1936.0, 1936.0]
+A1 of NEST 96 Deepwell Plate 2mL on 2
+A2 of NEST 96 Deepwell Plate 2mL on 2
+A3 of NEST 96 Deepwell Plate 2mL on 2
+None
+
+
+elution buffer here:
+1452.0
+A4 of NEST 96 Deepwell Plate 2mL on 2
+None
+
+
+purification solution here:
+1135.2
+A5 of NEST 96 Deepwell Plate 2mL on 2
+None
+
+
+Disengaging Magnetic Module
+Delaying for 5 minutes and 0.0 seconds
+Engaging Magnetic Module
+Delaying for 5 minutes and 0.0 seconds
+Picking up tip from A1 of Opentrons 96 Tip Rack 300 µL on 4
+Aspirating 100.0 uL from A1 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 5.0 uL/sec
+Aspirating 10.0 uL from A1 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 5.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid Waste on 11 at 150.0 uL/sec
+Blowing out at A1 of Liquid Waste on 11
+Aspirating 5.0 uL from A1 of Liquid Waste on 11 at 5.0 uL/sec
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from A2 of Opentrons 96 Tip Rack 300 µL on 4
+Aspirating 100.0 uL from A2 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 5.0 uL/sec
+Aspirating 10.0 uL from A2 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 5.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid Waste on 11 at 150.0 uL/sec
+Blowing out at A1 of Liquid Waste on 11
+Aspirating 5.0 uL from A1 of Liquid Waste on 11 at 5.0 uL/sec
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from A3 of Opentrons 96 Tip Rack 300 µL on 4
+Aspirating 100.0 uL from A3 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 5.0 uL/sec
+Aspirating 10.0 uL from A3 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 5.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid Waste on 11 at 150.0 uL/sec
+Blowing out at A1 of Liquid Waste on 11
+Aspirating 5.0 uL from A1 of Liquid Waste on 11 at 5.0 uL/sec
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from A4 of Opentrons 96 Tip Rack 300 µL on 4
+Aspirating 100.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 5.0 uL/sec
+Aspirating 10.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 5.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid Waste on 11 at 150.0 uL/sec
+Blowing out at A1 of Liquid Waste on 11
+Aspirating 5.0 uL from A1 of Liquid Waste on 11 at 5.0 uL/sec
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from A5 of Opentrons 96 Tip Rack 300 µL on 4
+Aspirating 100.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 5.0 uL/sec
+Aspirating 10.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 5.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid Waste on 11 at 150.0 uL/sec
+Blowing out at A1 of Liquid Waste on 11
+Aspirating 5.0 uL from A1 of Liquid Waste on 11 at 5.0 uL/sec
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from A6 of Opentrons 96 Tip Rack 300 µL on 4
+Aspirating 100.0 uL from A6 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 5.0 uL/sec
+Aspirating 10.0 uL from A6 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 5.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid Waste on 11 at 150.0 uL/sec
+Blowing out at A1 of Liquid Waste on 11
+Aspirating 5.0 uL from A1 of Liquid Waste on 11 at 5.0 uL/sec
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from A7 of Opentrons 96 Tip Rack 300 µL on 4
+Aspirating 100.0 uL from A7 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 5.0 uL/sec
+Aspirating 10.0 uL from A7 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 5.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid Waste on 11 at 150.0 uL/sec
+Blowing out at A1 of Liquid Waste on 11
+Aspirating 5.0 uL from A1 of Liquid Waste on 11 at 5.0 uL/sec
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from A8 of Opentrons 96 Tip Rack 300 µL on 4
+Aspirating 100.0 uL from A8 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 5.0 uL/sec
+Aspirating 10.0 uL from A8 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 5.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid Waste on 11 at 150.0 uL/sec
+Blowing out at A1 of Liquid Waste on 11
+Aspirating 5.0 uL from A1 of Liquid Waste on 11 at 5.0 uL/sec
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from A9 of Opentrons 96 Tip Rack 300 µL on 4
+Aspirating 100.0 uL from A9 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 5.0 uL/sec
+Aspirating 10.0 uL from A9 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 5.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid Waste on 11 at 150.0 uL/sec
+Blowing out at A1 of Liquid Waste on 11
+Aspirating 5.0 uL from A1 of Liquid Waste on 11 at 5.0 uL/sec
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from A10 of Opentrons 96 Tip Rack 300 µL on 4
+Aspirating 100.0 uL from A10 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 5.0 uL/sec
+Aspirating 10.0 uL from A10 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 5.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid Waste on 11 at 150.0 uL/sec
+Blowing out at A1 of Liquid Waste on 11
+Aspirating 5.0 uL from A1 of Liquid Waste on 11 at 5.0 uL/sec
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from A11 of Opentrons 96 Tip Rack 300 µL on 4
+Aspirating 100.0 uL from A11 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 5.0 uL/sec
+Aspirating 10.0 uL from A11 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 5.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid Waste on 11 at 150.0 uL/sec
+Blowing out at A1 of Liquid Waste on 11
+Aspirating 5.0 uL from A1 of Liquid Waste on 11 at 5.0 uL/sec
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from A12 of Opentrons 96 Tip Rack 300 µL on 4
+Aspirating 100.0 uL from A12 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 5.0 uL/sec
+Aspirating 10.0 uL from A12 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 5.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid Waste on 11 at 150.0 uL/sec
+Blowing out at A1 of Liquid Waste on 11
+Aspirating 5.0 uL from A1 of Liquid Waste on 11 at 5.0 uL/sec
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Disengaging Magnetic Module
+Picking up tip from A1 of Opentrons 96 Tip Rack 300 µL on 5
+Aspirating 40.5 uL from A4 of NEST 96 Deepwell Plate 2mL on 2 at 50.0 uL/sec
+Delaying for 0 minutes and 3.0 seconds
+Dispensing 40.5 uL into A1 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 70.0 uL/sec
+Blowing out at A1 of Mag_Sample_Plate on Magnetic Module GEN2 on 1
+Aspirating 5.0 uL from A1 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Aspirating 30.5 uL from A1 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 30.5 uL into A1 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 30.5 uL from A1 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 30.5 uL into A1 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 30.5 uL from A1 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 30.5 uL into A1 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 30.5 uL from A1 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 30.5 uL into A1 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 30.5 uL from A1 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 30.5 uL into A1 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 30.5 uL from A1 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 30.5 uL into A1 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 30.5 uL from A1 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 30.5 uL into A1 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 30.5 uL from A1 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 30.5 uL into A1 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 30.5 uL from A1 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 30.5 uL into A1 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 30.5 uL from A1 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 70.0 uL/sec
+Dispensing 30.5 uL into A1 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Blowing out at A1 of Mag_Sample_Plate on Magnetic Module GEN2 on 1
+Touching tip
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from A2 of Opentrons 96 Tip Rack 300 µL on 5
+Aspirating 40.5 uL from A4 of NEST 96 Deepwell Plate 2mL on 2 at 20.0 uL/sec
+Delaying for 0 minutes and 3.0 seconds
+Dispensing 40.5 uL into A2 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Blowing out at A2 of Mag_Sample_Plate on Magnetic Module GEN2 on 1
+Aspirating 5.0 uL from A2 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Aspirating 30.5 uL from A2 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 30.5 uL into A2 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 30.5 uL from A2 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 30.5 uL into A2 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 30.5 uL from A2 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 30.5 uL into A2 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 30.5 uL from A2 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 30.5 uL into A2 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 30.5 uL from A2 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 30.5 uL into A2 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 30.5 uL from A2 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 30.5 uL into A2 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 30.5 uL from A2 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 30.5 uL into A2 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 30.5 uL from A2 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 30.5 uL into A2 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 30.5 uL from A2 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 30.5 uL into A2 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 30.5 uL from A2 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 70.0 uL/sec
+Dispensing 30.5 uL into A2 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A2 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Blowing out at A2 of Mag_Sample_Plate on Magnetic Module GEN2 on 1
+Touching tip
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from A3 of Opentrons 96 Tip Rack 300 µL on 5
+Aspirating 40.5 uL from A4 of NEST 96 Deepwell Plate 2mL on 2 at 20.0 uL/sec
+Delaying for 0 minutes and 3.0 seconds
+Dispensing 40.5 uL into A3 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Blowing out at A3 of Mag_Sample_Plate on Magnetic Module GEN2 on 1
+Aspirating 5.0 uL from A3 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Aspirating 30.5 uL from A3 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 30.5 uL into A3 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 30.5 uL from A3 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 30.5 uL into A3 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 30.5 uL from A3 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 30.5 uL into A3 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 30.5 uL from A3 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 30.5 uL into A3 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 30.5 uL from A3 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 30.5 uL into A3 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 30.5 uL from A3 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 30.5 uL into A3 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 30.5 uL from A3 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 30.5 uL into A3 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 30.5 uL from A3 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 30.5 uL into A3 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 30.5 uL from A3 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 30.5 uL into A3 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 30.5 uL from A3 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 70.0 uL/sec
+Dispensing 30.5 uL into A3 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A3 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Blowing out at A3 of Mag_Sample_Plate on Magnetic Module GEN2 on 1
+Touching tip
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from A4 of Opentrons 96 Tip Rack 300 µL on 5
+Aspirating 40.5 uL from A4 of NEST 96 Deepwell Plate 2mL on 2 at 20.0 uL/sec
+Delaying for 0 minutes and 3.0 seconds
+Dispensing 40.5 uL into A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Blowing out at A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1
+Aspirating 5.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Aspirating 30.5 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 30.5 uL into A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 30.5 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 30.5 uL into A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 30.5 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 30.5 uL into A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 30.5 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 30.5 uL into A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 30.5 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 30.5 uL into A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 30.5 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 30.5 uL into A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 30.5 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 30.5 uL into A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 30.5 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 30.5 uL into A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 30.5 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 30.5 uL into A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 30.5 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 70.0 uL/sec
+Dispensing 30.5 uL into A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Blowing out at A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1
+Touching tip
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from A5 of Opentrons 96 Tip Rack 300 µL on 5
+Aspirating 40.5 uL from A4 of NEST 96 Deepwell Plate 2mL on 2 at 20.0 uL/sec
+Delaying for 0 minutes and 3.0 seconds
+Dispensing 40.5 uL into A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Blowing out at A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1
+Aspirating 5.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Aspirating 30.5 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 30.5 uL into A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 30.5 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 30.5 uL into A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 30.5 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 30.5 uL into A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 30.5 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 30.5 uL into A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 30.5 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 30.5 uL into A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 30.5 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 30.5 uL into A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 30.5 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 30.5 uL into A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 30.5 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 30.5 uL into A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 30.5 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 30.5 uL into A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 30.5 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 70.0 uL/sec
+Dispensing 30.5 uL into A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Blowing out at A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1
+Touching tip
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from A6 of Opentrons 96 Tip Rack 300 µL on 5
+Aspirating 40.5 uL from A4 of NEST 96 Deepwell Plate 2mL on 2 at 20.0 uL/sec
+Delaying for 0 minutes and 3.0 seconds
+Dispensing 40.5 uL into A6 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Blowing out at A6 of Mag_Sample_Plate on Magnetic Module GEN2 on 1
+Aspirating 5.0 uL from A6 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Aspirating 30.5 uL from A6 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 30.5 uL into A6 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 30.5 uL from A6 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 30.5 uL into A6 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 30.5 uL from A6 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 30.5 uL into A6 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 30.5 uL from A6 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 30.5 uL into A6 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 30.5 uL from A6 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 30.5 uL into A6 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 30.5 uL from A6 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 30.5 uL into A6 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 30.5 uL from A6 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 30.5 uL into A6 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 30.5 uL from A6 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 30.5 uL into A6 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 30.5 uL from A6 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 30.5 uL into A6 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 30.5 uL from A6 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 70.0 uL/sec
+Dispensing 30.5 uL into A6 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A6 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Blowing out at A6 of Mag_Sample_Plate on Magnetic Module GEN2 on 1
+Touching tip
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from A7 of Opentrons 96 Tip Rack 300 µL on 5
+Aspirating 40.5 uL from A4 of NEST 96 Deepwell Plate 2mL on 2 at 20.0 uL/sec
+Delaying for 0 minutes and 3.0 seconds
+Dispensing 40.5 uL into A7 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Blowing out at A7 of Mag_Sample_Plate on Magnetic Module GEN2 on 1
+Aspirating 5.0 uL from A7 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Aspirating 30.5 uL from A7 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 30.5 uL into A7 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 30.5 uL from A7 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 30.5 uL into A7 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 30.5 uL from A7 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 30.5 uL into A7 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 30.5 uL from A7 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 30.5 uL into A7 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 30.5 uL from A7 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 30.5 uL into A7 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 30.5 uL from A7 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 30.5 uL into A7 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 30.5 uL from A7 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 30.5 uL into A7 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 30.5 uL from A7 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 30.5 uL into A7 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 30.5 uL from A7 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 30.5 uL into A7 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 30.5 uL from A7 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 70.0 uL/sec
+Dispensing 30.5 uL into A7 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A7 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Blowing out at A7 of Mag_Sample_Plate on Magnetic Module GEN2 on 1
+Touching tip
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from A8 of Opentrons 96 Tip Rack 300 µL on 5
+Aspirating 40.5 uL from A4 of NEST 96 Deepwell Plate 2mL on 2 at 20.0 uL/sec
+Delaying for 0 minutes and 3.0 seconds
+Dispensing 40.5 uL into A8 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Blowing out at A8 of Mag_Sample_Plate on Magnetic Module GEN2 on 1
+Aspirating 5.0 uL from A8 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Aspirating 30.5 uL from A8 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 30.5 uL into A8 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 30.5 uL from A8 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 30.5 uL into A8 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 30.5 uL from A8 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 30.5 uL into A8 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 30.5 uL from A8 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 30.5 uL into A8 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 30.5 uL from A8 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 30.5 uL into A8 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 30.5 uL from A8 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 30.5 uL into A8 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 30.5 uL from A8 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 30.5 uL into A8 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 30.5 uL from A8 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 30.5 uL into A8 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 30.5 uL from A8 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 30.5 uL into A8 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 30.5 uL from A8 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 70.0 uL/sec
+Dispensing 30.5 uL into A8 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A8 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Blowing out at A8 of Mag_Sample_Plate on Magnetic Module GEN2 on 1
+Touching tip
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from A9 of Opentrons 96 Tip Rack 300 µL on 5
+Aspirating 40.5 uL from A4 of NEST 96 Deepwell Plate 2mL on 2 at 20.0 uL/sec
+Delaying for 0 minutes and 3.0 seconds
+Dispensing 40.5 uL into A9 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Blowing out at A9 of Mag_Sample_Plate on Magnetic Module GEN2 on 1
+Aspirating 5.0 uL from A9 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Aspirating 30.5 uL from A9 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 30.5 uL into A9 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 30.5 uL from A9 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 30.5 uL into A9 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 30.5 uL from A9 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 30.5 uL into A9 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 30.5 uL from A9 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 30.5 uL into A9 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 30.5 uL from A9 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 30.5 uL into A9 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 30.5 uL from A9 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 30.5 uL into A9 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 30.5 uL from A9 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 30.5 uL into A9 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 30.5 uL from A9 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 30.5 uL into A9 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 30.5 uL from A9 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 30.5 uL into A9 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 30.5 uL from A9 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 70.0 uL/sec
+Dispensing 30.5 uL into A9 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A9 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Blowing out at A9 of Mag_Sample_Plate on Magnetic Module GEN2 on 1
+Touching tip
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from A10 of Opentrons 96 Tip Rack 300 µL on 5
+Aspirating 40.5 uL from A4 of NEST 96 Deepwell Plate 2mL on 2 at 20.0 uL/sec
+Delaying for 0 minutes and 3.0 seconds
+Dispensing 40.5 uL into A10 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Blowing out at A10 of Mag_Sample_Plate on Magnetic Module GEN2 on 1
+Aspirating 5.0 uL from A10 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Aspirating 30.5 uL from A10 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 30.5 uL into A10 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 30.5 uL from A10 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 30.5 uL into A10 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 30.5 uL from A10 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 30.5 uL into A10 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 30.5 uL from A10 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 30.5 uL into A10 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 30.5 uL from A10 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 30.5 uL into A10 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 30.5 uL from A10 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 30.5 uL into A10 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 30.5 uL from A10 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 30.5 uL into A10 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 30.5 uL from A10 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 30.5 uL into A10 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 30.5 uL from A10 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 30.5 uL into A10 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 30.5 uL from A10 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 70.0 uL/sec
+Dispensing 30.5 uL into A10 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A10 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Blowing out at A10 of Mag_Sample_Plate on Magnetic Module GEN2 on 1
+Touching tip
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from A11 of Opentrons 96 Tip Rack 300 µL on 5
+Aspirating 40.5 uL from A4 of NEST 96 Deepwell Plate 2mL on 2 at 20.0 uL/sec
+Delaying for 0 minutes and 3.0 seconds
+Dispensing 40.5 uL into A11 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Blowing out at A11 of Mag_Sample_Plate on Magnetic Module GEN2 on 1
+Aspirating 5.0 uL from A11 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Aspirating 30.5 uL from A11 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 30.5 uL into A11 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 30.5 uL from A11 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 30.5 uL into A11 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 30.5 uL from A11 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 30.5 uL into A11 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 30.5 uL from A11 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 30.5 uL into A11 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 30.5 uL from A11 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 30.5 uL into A11 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 30.5 uL from A11 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 30.5 uL into A11 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 30.5 uL from A11 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 30.5 uL into A11 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 30.5 uL from A11 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 30.5 uL into A11 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 30.5 uL from A11 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 30.5 uL into A11 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 30.5 uL from A11 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 70.0 uL/sec
+Dispensing 30.5 uL into A11 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A11 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Blowing out at A11 of Mag_Sample_Plate on Magnetic Module GEN2 on 1
+Touching tip
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from A12 of Opentrons 96 Tip Rack 300 µL on 5
+Aspirating 40.5 uL from A4 of NEST 96 Deepwell Plate 2mL on 2 at 20.0 uL/sec
+Delaying for 0 minutes and 3.0 seconds
+Dispensing 40.5 uL into A12 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Blowing out at A12 of Mag_Sample_Plate on Magnetic Module GEN2 on 1
+Aspirating 5.0 uL from A12 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Aspirating 30.5 uL from A12 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 30.5 uL into A12 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 30.5 uL from A12 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 30.5 uL into A12 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 30.5 uL from A12 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 30.5 uL into A12 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 30.5 uL from A12 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 30.5 uL into A12 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 30.5 uL from A12 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 30.5 uL into A12 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 30.5 uL from A12 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 30.5 uL into A12 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 30.5 uL from A12 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 30.5 uL into A12 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 30.5 uL from A12 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 30.5 uL into A12 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 30.5 uL from A12 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 30.5 uL into A12 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 30.5 uL from A12 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 70.0 uL/sec
+Dispensing 30.5 uL into A12 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A12 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Blowing out at A12 of Mag_Sample_Plate on Magnetic Module GEN2 on 1
+Touching tip
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Delaying for 2 minutes and 0.0 seconds
+Picking up tip from A1 of Opentrons 96 Tip Rack 300 µL on 6
+Aspirating 56.5 uL from A5 of NEST 96 Deepwell Plate 2mL on 2 at 30.0 uL/sec
+Delaying for 0 minutes and 3.0 seconds
+Dispensing 56.5 uL into A1 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 70.0 uL/sec
+Blowing out at A1 of Mag_Sample_Plate on Magnetic Module GEN2 on 1
+Aspirating 5.0 uL from A1 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Aspirating 70.0 uL from A1 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 70.0 uL into A1 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 70.0 uL from A1 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 70.0 uL into A1 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 70.0 uL from A1 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 70.0 uL into A1 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 70.0 uL from A1 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 70.0 uL into A1 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 70.0 uL from A1 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 70.0 uL into A1 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 70.0 uL from A1 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 70.0 uL into A1 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 70.0 uL from A1 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 70.0 uL into A1 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 70.0 uL from A1 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 70.0 uL into A1 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 70.0 uL from A1 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 70.0 uL into A1 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 70.0 uL from A1 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 70.0 uL/sec
+Dispensing 70.0 uL into A1 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Blowing out at A1 of Mag_Sample_Plate on Magnetic Module GEN2 on 1
+Touching tip
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from A2 of Opentrons 96 Tip Rack 300 µL on 6
+Aspirating 56.5 uL from A5 of NEST 96 Deepwell Plate 2mL on 2 at 20.0 uL/sec
+Delaying for 0 minutes and 3.0 seconds
+Dispensing 56.5 uL into A2 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Blowing out at A2 of Mag_Sample_Plate on Magnetic Module GEN2 on 1
+Aspirating 5.0 uL from A2 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Aspirating 70.0 uL from A2 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 70.0 uL into A2 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 70.0 uL from A2 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 70.0 uL into A2 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 70.0 uL from A2 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 70.0 uL into A2 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 70.0 uL from A2 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 70.0 uL into A2 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 70.0 uL from A2 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 70.0 uL into A2 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 70.0 uL from A2 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 70.0 uL into A2 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 70.0 uL from A2 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 70.0 uL into A2 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 70.0 uL from A2 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 70.0 uL into A2 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 70.0 uL from A2 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 70.0 uL into A2 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 70.0 uL from A2 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 70.0 uL/sec
+Dispensing 70.0 uL into A2 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A2 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Blowing out at A2 of Mag_Sample_Plate on Magnetic Module GEN2 on 1
+Touching tip
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from A3 of Opentrons 96 Tip Rack 300 µL on 6
+Aspirating 56.5 uL from A5 of NEST 96 Deepwell Plate 2mL on 2 at 20.0 uL/sec
+Delaying for 0 minutes and 3.0 seconds
+Dispensing 56.5 uL into A3 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Blowing out at A3 of Mag_Sample_Plate on Magnetic Module GEN2 on 1
+Aspirating 5.0 uL from A3 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Aspirating 70.0 uL from A3 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 70.0 uL into A3 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 70.0 uL from A3 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 70.0 uL into A3 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 70.0 uL from A3 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 70.0 uL into A3 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 70.0 uL from A3 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 70.0 uL into A3 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 70.0 uL from A3 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 70.0 uL into A3 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 70.0 uL from A3 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 70.0 uL into A3 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 70.0 uL from A3 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 70.0 uL into A3 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 70.0 uL from A3 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 70.0 uL into A3 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 70.0 uL from A3 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 70.0 uL into A3 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 70.0 uL from A3 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 70.0 uL/sec
+Dispensing 70.0 uL into A3 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A3 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Blowing out at A3 of Mag_Sample_Plate on Magnetic Module GEN2 on 1
+Touching tip
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from A4 of Opentrons 96 Tip Rack 300 µL on 6
+Aspirating 56.5 uL from A5 of NEST 96 Deepwell Plate 2mL on 2 at 20.0 uL/sec
+Delaying for 0 minutes and 3.0 seconds
+Dispensing 56.5 uL into A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Blowing out at A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1
+Aspirating 5.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Aspirating 70.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 70.0 uL into A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 70.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 70.0 uL into A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 70.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 70.0 uL into A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 70.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 70.0 uL into A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 70.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 70.0 uL into A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 70.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 70.0 uL into A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 70.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 70.0 uL into A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 70.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 70.0 uL into A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 70.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 70.0 uL into A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 70.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 70.0 uL/sec
+Dispensing 70.0 uL into A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Blowing out at A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1
+Touching tip
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from A5 of Opentrons 96 Tip Rack 300 µL on 6
+Aspirating 56.5 uL from A5 of NEST 96 Deepwell Plate 2mL on 2 at 20.0 uL/sec
+Delaying for 0 minutes and 3.0 seconds
+Dispensing 56.5 uL into A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Blowing out at A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1
+Aspirating 5.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Aspirating 70.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 70.0 uL into A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 70.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 70.0 uL into A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 70.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 70.0 uL into A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 70.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 70.0 uL into A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 70.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 70.0 uL into A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 70.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 70.0 uL into A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 70.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 70.0 uL into A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 70.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 70.0 uL into A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 70.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 70.0 uL into A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 70.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 70.0 uL/sec
+Dispensing 70.0 uL into A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Blowing out at A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1
+Touching tip
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from A6 of Opentrons 96 Tip Rack 300 µL on 6
+Aspirating 56.5 uL from A5 of NEST 96 Deepwell Plate 2mL on 2 at 20.0 uL/sec
+Delaying for 0 minutes and 3.0 seconds
+Dispensing 56.5 uL into A6 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Blowing out at A6 of Mag_Sample_Plate on Magnetic Module GEN2 on 1
+Aspirating 5.0 uL from A6 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Aspirating 70.0 uL from A6 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 70.0 uL into A6 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 70.0 uL from A6 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 70.0 uL into A6 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 70.0 uL from A6 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 70.0 uL into A6 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 70.0 uL from A6 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 70.0 uL into A6 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 70.0 uL from A6 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 70.0 uL into A6 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 70.0 uL from A6 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 70.0 uL into A6 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 70.0 uL from A6 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 70.0 uL into A6 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 70.0 uL from A6 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 70.0 uL into A6 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 70.0 uL from A6 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 70.0 uL into A6 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 70.0 uL from A6 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 70.0 uL/sec
+Dispensing 70.0 uL into A6 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A6 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Blowing out at A6 of Mag_Sample_Plate on Magnetic Module GEN2 on 1
+Touching tip
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from A7 of Opentrons 96 Tip Rack 300 µL on 6
+Aspirating 56.5 uL from A5 of NEST 96 Deepwell Plate 2mL on 2 at 20.0 uL/sec
+Delaying for 0 minutes and 3.0 seconds
+Dispensing 56.5 uL into A7 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Blowing out at A7 of Mag_Sample_Plate on Magnetic Module GEN2 on 1
+Aspirating 5.0 uL from A7 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Aspirating 70.0 uL from A7 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 70.0 uL into A7 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 70.0 uL from A7 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 70.0 uL into A7 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 70.0 uL from A7 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 70.0 uL into A7 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 70.0 uL from A7 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 70.0 uL into A7 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 70.0 uL from A7 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 70.0 uL into A7 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 70.0 uL from A7 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 70.0 uL into A7 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 70.0 uL from A7 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 70.0 uL into A7 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 70.0 uL from A7 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 70.0 uL into A7 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 70.0 uL from A7 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 70.0 uL into A7 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 70.0 uL from A7 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 70.0 uL/sec
+Dispensing 70.0 uL into A7 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A7 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Blowing out at A7 of Mag_Sample_Plate on Magnetic Module GEN2 on 1
+Touching tip
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from A8 of Opentrons 96 Tip Rack 300 µL on 6
+Aspirating 56.5 uL from A5 of NEST 96 Deepwell Plate 2mL on 2 at 20.0 uL/sec
+Delaying for 0 minutes and 3.0 seconds
+Dispensing 56.5 uL into A8 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Blowing out at A8 of Mag_Sample_Plate on Magnetic Module GEN2 on 1
+Aspirating 5.0 uL from A8 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Aspirating 70.0 uL from A8 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 70.0 uL into A8 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 70.0 uL from A8 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 70.0 uL into A8 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 70.0 uL from A8 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 70.0 uL into A8 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 70.0 uL from A8 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 70.0 uL into A8 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 70.0 uL from A8 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 70.0 uL into A8 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 70.0 uL from A8 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 70.0 uL into A8 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 70.0 uL from A8 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 70.0 uL into A8 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 70.0 uL from A8 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 70.0 uL into A8 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 70.0 uL from A8 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 70.0 uL into A8 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 70.0 uL from A8 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 70.0 uL/sec
+Dispensing 70.0 uL into A8 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A8 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Blowing out at A8 of Mag_Sample_Plate on Magnetic Module GEN2 on 1
+Touching tip
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from A9 of Opentrons 96 Tip Rack 300 µL on 6
+Aspirating 56.5 uL from A5 of NEST 96 Deepwell Plate 2mL on 2 at 20.0 uL/sec
+Delaying for 0 minutes and 3.0 seconds
+Dispensing 56.5 uL into A9 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Blowing out at A9 of Mag_Sample_Plate on Magnetic Module GEN2 on 1
+Aspirating 5.0 uL from A9 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Aspirating 70.0 uL from A9 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 70.0 uL into A9 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 70.0 uL from A9 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 70.0 uL into A9 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 70.0 uL from A9 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 70.0 uL into A9 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 70.0 uL from A9 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 70.0 uL into A9 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 70.0 uL from A9 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 70.0 uL into A9 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 70.0 uL from A9 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 70.0 uL into A9 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 70.0 uL from A9 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 70.0 uL into A9 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 70.0 uL from A9 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 70.0 uL into A9 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 70.0 uL from A9 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 70.0 uL into A9 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 70.0 uL from A9 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 70.0 uL/sec
+Dispensing 70.0 uL into A9 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A9 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Blowing out at A9 of Mag_Sample_Plate on Magnetic Module GEN2 on 1
+Touching tip
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from A10 of Opentrons 96 Tip Rack 300 µL on 6
+Aspirating 56.5 uL from A5 of NEST 96 Deepwell Plate 2mL on 2 at 20.0 uL/sec
+Delaying for 0 minutes and 3.0 seconds
+Dispensing 56.5 uL into A10 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Blowing out at A10 of Mag_Sample_Plate on Magnetic Module GEN2 on 1
+Aspirating 5.0 uL from A10 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Aspirating 70.0 uL from A10 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 70.0 uL into A10 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 70.0 uL from A10 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 70.0 uL into A10 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 70.0 uL from A10 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 70.0 uL into A10 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 70.0 uL from A10 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 70.0 uL into A10 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 70.0 uL from A10 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 70.0 uL into A10 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 70.0 uL from A10 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 70.0 uL into A10 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 70.0 uL from A10 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 70.0 uL into A10 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 70.0 uL from A10 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 70.0 uL into A10 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 70.0 uL from A10 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 70.0 uL into A10 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 70.0 uL from A10 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 70.0 uL/sec
+Dispensing 70.0 uL into A10 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A10 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Blowing out at A10 of Mag_Sample_Plate on Magnetic Module GEN2 on 1
+Touching tip
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from A11 of Opentrons 96 Tip Rack 300 µL on 6
+Aspirating 56.5 uL from A5 of NEST 96 Deepwell Plate 2mL on 2 at 20.0 uL/sec
+Delaying for 0 minutes and 3.0 seconds
+Dispensing 56.5 uL into A11 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Blowing out at A11 of Mag_Sample_Plate on Magnetic Module GEN2 on 1
+Aspirating 5.0 uL from A11 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Aspirating 70.0 uL from A11 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 70.0 uL into A11 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 70.0 uL from A11 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 70.0 uL into A11 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 70.0 uL from A11 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 70.0 uL into A11 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 70.0 uL from A11 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 70.0 uL into A11 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 70.0 uL from A11 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 70.0 uL into A11 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 70.0 uL from A11 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 70.0 uL into A11 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 70.0 uL from A11 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 70.0 uL into A11 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 70.0 uL from A11 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 70.0 uL into A11 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 70.0 uL from A11 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 70.0 uL into A11 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 70.0 uL from A11 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 70.0 uL/sec
+Dispensing 70.0 uL into A11 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A11 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Blowing out at A11 of Mag_Sample_Plate on Magnetic Module GEN2 on 1
+Touching tip
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from A12 of Opentrons 96 Tip Rack 300 µL on 6
+Aspirating 56.5 uL from A5 of NEST 96 Deepwell Plate 2mL on 2 at 20.0 uL/sec
+Delaying for 0 minutes and 3.0 seconds
+Dispensing 56.5 uL into A12 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Blowing out at A12 of Mag_Sample_Plate on Magnetic Module GEN2 on 1
+Aspirating 5.0 uL from A12 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Aspirating 70.0 uL from A12 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 70.0 uL into A12 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 70.0 uL from A12 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 70.0 uL into A12 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 70.0 uL from A12 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 70.0 uL into A12 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 70.0 uL from A12 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 70.0 uL into A12 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 70.0 uL from A12 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 70.0 uL into A12 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 70.0 uL from A12 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 70.0 uL into A12 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 70.0 uL from A12 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 70.0 uL into A12 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 70.0 uL from A12 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 70.0 uL into A12 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 70.0 uL from A12 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 70.0 uL into A12 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 70.0 uL from A12 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 70.0 uL/sec
+Dispensing 70.0 uL into A12 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A12 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Blowing out at A12 of Mag_Sample_Plate on Magnetic Module GEN2 on 1
+Touching tip
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Delaying for 5 minutes and 0.0 seconds
+Engaging Magnetic Module
+Delaying for 8 minutes and 0.0 seconds
+Picking up tip from A1 of Opentrons 96 Tip Rack 300 µL on 7
+Aspirating 100.0 uL from A1 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 5.0 uL/sec
+Aspirating 10.0 uL from A1 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 5.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid Waste on 11 at 150.0 uL/sec
+Blowing out at A1 of Liquid Waste on 11
+Aspirating 5.0 uL from A1 of Liquid Waste on 11 at 5.0 uL/sec
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from A2 of Opentrons 96 Tip Rack 300 µL on 7
+Aspirating 100.0 uL from A2 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 5.0 uL/sec
+Aspirating 10.0 uL from A2 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 5.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid Waste on 11 at 150.0 uL/sec
+Blowing out at A1 of Liquid Waste on 11
+Aspirating 5.0 uL from A1 of Liquid Waste on 11 at 5.0 uL/sec
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from A3 of Opentrons 96 Tip Rack 300 µL on 7
+Aspirating 100.0 uL from A3 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 5.0 uL/sec
+Aspirating 10.0 uL from A3 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 5.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid Waste on 11 at 150.0 uL/sec
+Blowing out at A1 of Liquid Waste on 11
+Aspirating 5.0 uL from A1 of Liquid Waste on 11 at 5.0 uL/sec
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from A4 of Opentrons 96 Tip Rack 300 µL on 7
+Aspirating 100.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 5.0 uL/sec
+Aspirating 10.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 5.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid Waste on 11 at 150.0 uL/sec
+Blowing out at A1 of Liquid Waste on 11
+Aspirating 5.0 uL from A1 of Liquid Waste on 11 at 5.0 uL/sec
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from A5 of Opentrons 96 Tip Rack 300 µL on 7
+Aspirating 100.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 5.0 uL/sec
+Aspirating 10.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 5.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid Waste on 11 at 150.0 uL/sec
+Blowing out at A1 of Liquid Waste on 11
+Aspirating 5.0 uL from A1 of Liquid Waste on 11 at 5.0 uL/sec
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from A6 of Opentrons 96 Tip Rack 300 µL on 7
+Aspirating 100.0 uL from A6 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 5.0 uL/sec
+Aspirating 10.0 uL from A6 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 5.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid Waste on 11 at 150.0 uL/sec
+Blowing out at A1 of Liquid Waste on 11
+Aspirating 5.0 uL from A1 of Liquid Waste on 11 at 5.0 uL/sec
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from A7 of Opentrons 96 Tip Rack 300 µL on 7
+Aspirating 100.0 uL from A7 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 5.0 uL/sec
+Aspirating 10.0 uL from A7 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 5.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid Waste on 11 at 150.0 uL/sec
+Blowing out at A1 of Liquid Waste on 11
+Aspirating 5.0 uL from A1 of Liquid Waste on 11 at 5.0 uL/sec
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from A8 of Opentrons 96 Tip Rack 300 µL on 7
+Aspirating 100.0 uL from A8 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 5.0 uL/sec
+Aspirating 10.0 uL from A8 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 5.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid Waste on 11 at 150.0 uL/sec
+Blowing out at A1 of Liquid Waste on 11
+Aspirating 5.0 uL from A1 of Liquid Waste on 11 at 5.0 uL/sec
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from A9 of Opentrons 96 Tip Rack 300 µL on 7
+Aspirating 100.0 uL from A9 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 5.0 uL/sec
+Aspirating 10.0 uL from A9 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 5.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid Waste on 11 at 150.0 uL/sec
+Blowing out at A1 of Liquid Waste on 11
+Aspirating 5.0 uL from A1 of Liquid Waste on 11 at 5.0 uL/sec
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from A10 of Opentrons 96 Tip Rack 300 µL on 7
+Aspirating 100.0 uL from A10 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 5.0 uL/sec
+Aspirating 10.0 uL from A10 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 5.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid Waste on 11 at 150.0 uL/sec
+Blowing out at A1 of Liquid Waste on 11
+Aspirating 5.0 uL from A1 of Liquid Waste on 11 at 5.0 uL/sec
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from A11 of Opentrons 96 Tip Rack 300 µL on 7
+Aspirating 100.0 uL from A11 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 5.0 uL/sec
+Aspirating 10.0 uL from A11 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 5.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid Waste on 11 at 150.0 uL/sec
+Blowing out at A1 of Liquid Waste on 11
+Aspirating 5.0 uL from A1 of Liquid Waste on 11 at 5.0 uL/sec
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from A12 of Opentrons 96 Tip Rack 300 µL on 7
+Aspirating 100.0 uL from A12 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 5.0 uL/sec
+Aspirating 10.0 uL from A12 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 5.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid Waste on 11 at 150.0 uL/sec
+Blowing out at A1 of Liquid Waste on 11
+Aspirating 5.0 uL from A1 of Liquid Waste on 11 at 5.0 uL/sec
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from A1 of Opentrons 96 Tip Rack 300 µL on 8
+Air gap
+	Aspirating 10.0 uL from A1 of Opentrons 96 Tip Rack 300 µL on 8 at 75.0 uL/sec
+Aspirating 100.0 uL from A1 of NEST 96 Deepwell Plate 2mL on 2 at 75.0 uL/sec
+Air gap
+	Aspirating 5.0 uL from A1 of NEST 96 Deepwell Plate 2mL on 2 at 75.0 uL/sec
+Dispensing 210.0 uL into A1 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Air gap
+	Aspirating 5.0 uL from A1 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 75.0 uL/sec
+Air gap
+	Aspirating 10.0 uL from A1 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 75.0 uL/sec
+Aspirating 100.0 uL from A1 of NEST 96 Deepwell Plate 2mL on 2 at 75.0 uL/sec
+Air gap
+	Aspirating 5.0 uL from A1 of NEST 96 Deepwell Plate 2mL on 2 at 75.0 uL/sec
+Dispensing 210.0 uL into A2 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Air gap
+	Aspirating 5.0 uL from A2 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 75.0 uL/sec
+Air gap
+	Aspirating 10.0 uL from A2 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 75.0 uL/sec
+Aspirating 100.0 uL from A1 of NEST 96 Deepwell Plate 2mL on 2 at 75.0 uL/sec
+Air gap
+	Aspirating 5.0 uL from A1 of NEST 96 Deepwell Plate 2mL on 2 at 75.0 uL/sec
+Dispensing 210.0 uL into A3 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Air gap
+	Aspirating 5.0 uL from A3 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 75.0 uL/sec
+Air gap
+	Aspirating 10.0 uL from A3 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 75.0 uL/sec
+Aspirating 100.0 uL from A1 of NEST 96 Deepwell Plate 2mL on 2 at 75.0 uL/sec
+Air gap
+	Aspirating 5.0 uL from A1 of NEST 96 Deepwell Plate 2mL on 2 at 75.0 uL/sec
+Dispensing 210.0 uL into A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Air gap
+	Aspirating 5.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 75.0 uL/sec
+Air gap
+	Aspirating 10.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 75.0 uL/sec
+Aspirating 100.0 uL from A2 of NEST 96 Deepwell Plate 2mL on 2 at 75.0 uL/sec
+Air gap
+	Aspirating 5.0 uL from A2 of NEST 96 Deepwell Plate 2mL on 2 at 75.0 uL/sec
+Dispensing 210.0 uL into A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Air gap
+	Aspirating 5.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 75.0 uL/sec
+Air gap
+	Aspirating 10.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 75.0 uL/sec
+Aspirating 100.0 uL from A2 of NEST 96 Deepwell Plate 2mL on 2 at 75.0 uL/sec
+Air gap
+	Aspirating 5.0 uL from A2 of NEST 96 Deepwell Plate 2mL on 2 at 75.0 uL/sec
+Dispensing 210.0 uL into A6 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Air gap
+	Aspirating 5.0 uL from A6 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 75.0 uL/sec
+Air gap
+	Aspirating 10.0 uL from A6 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 75.0 uL/sec
+Aspirating 100.0 uL from A2 of NEST 96 Deepwell Plate 2mL on 2 at 75.0 uL/sec
+Air gap
+	Aspirating 5.0 uL from A2 of NEST 96 Deepwell Plate 2mL on 2 at 75.0 uL/sec
+Dispensing 210.0 uL into A7 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Air gap
+	Aspirating 5.0 uL from A7 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 75.0 uL/sec
+Air gap
+	Aspirating 10.0 uL from A7 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 75.0 uL/sec
+Aspirating 100.0 uL from A2 of NEST 96 Deepwell Plate 2mL on 2 at 75.0 uL/sec
+Air gap
+	Aspirating 5.0 uL from A2 of NEST 96 Deepwell Plate 2mL on 2 at 75.0 uL/sec
+Dispensing 210.0 uL into A8 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Air gap
+	Aspirating 5.0 uL from A8 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 75.0 uL/sec
+Air gap
+	Aspirating 10.0 uL from A8 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 75.0 uL/sec
+Aspirating 100.0 uL from A3 of NEST 96 Deepwell Plate 2mL on 2 at 75.0 uL/sec
+Air gap
+	Aspirating 5.0 uL from A3 of NEST 96 Deepwell Plate 2mL on 2 at 75.0 uL/sec
+Dispensing 210.0 uL into A9 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Air gap
+	Aspirating 5.0 uL from A9 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 75.0 uL/sec
+Air gap
+	Aspirating 10.0 uL from A9 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 75.0 uL/sec
+Aspirating 100.0 uL from A3 of NEST 96 Deepwell Plate 2mL on 2 at 75.0 uL/sec
+Air gap
+	Aspirating 5.0 uL from A3 of NEST 96 Deepwell Plate 2mL on 2 at 75.0 uL/sec
+Dispensing 210.0 uL into A10 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Air gap
+	Aspirating 5.0 uL from A10 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 75.0 uL/sec
+Air gap
+	Aspirating 10.0 uL from A10 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 75.0 uL/sec
+Aspirating 100.0 uL from A3 of NEST 96 Deepwell Plate 2mL on 2 at 75.0 uL/sec
+Air gap
+	Aspirating 5.0 uL from A3 of NEST 96 Deepwell Plate 2mL on 2 at 75.0 uL/sec
+Dispensing 210.0 uL into A11 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Air gap
+	Aspirating 5.0 uL from A11 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 75.0 uL/sec
+Air gap
+	Aspirating 10.0 uL from A11 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 75.0 uL/sec
+Aspirating 100.0 uL from A3 of NEST 96 Deepwell Plate 2mL on 2 at 75.0 uL/sec
+Air gap
+	Aspirating 5.0 uL from A3 of NEST 96 Deepwell Plate 2mL on 2 at 75.0 uL/sec
+Dispensing 210.0 uL into A12 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Air gap
+	Aspirating 5.0 uL from A12 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 75.0 uL/sec
+Delaying for 0 minutes and 45.0 seconds
+Aspirating 60.0 uL from A1 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Aspirating 60.0 uL from A1 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Aspirating 10.0 uL from A1 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid Waste on 11 at 150.0 uL/sec
+Blowing out at A1 of Liquid Waste on 11
+Air gap
+	Aspirating 5.0 uL from A1 of Liquid Waste on 11 at 10.0 uL/sec
+Aspirating 5.0 uL from A1 of Liquid Waste on 11 at 10.0 uL/sec
+Aspirating 80.0 uL from A1 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Dispensing 110.0 uL into A1 of Liquid Waste on 11 at 150.0 uL/sec
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from A2 of Opentrons 96 Tip Rack 300 µL on 8
+Aspirating 60.0 uL from A2 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Aspirating 60.0 uL from A2 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Aspirating 10.0 uL from A2 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid Waste on 11 at 150.0 uL/sec
+Blowing out at A1 of Liquid Waste on 11
+Air gap
+	Aspirating 5.0 uL from A1 of Liquid Waste on 11 at 10.0 uL/sec
+Aspirating 5.0 uL from A1 of Liquid Waste on 11 at 10.0 uL/sec
+Aspirating 80.0 uL from A2 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Dispensing 110.0 uL into A1 of Liquid Waste on 11 at 150.0 uL/sec
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from A3 of Opentrons 96 Tip Rack 300 µL on 8
+Aspirating 60.0 uL from A3 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Aspirating 60.0 uL from A3 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Aspirating 10.0 uL from A3 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid Waste on 11 at 150.0 uL/sec
+Blowing out at A1 of Liquid Waste on 11
+Air gap
+	Aspirating 5.0 uL from A1 of Liquid Waste on 11 at 10.0 uL/sec
+Aspirating 5.0 uL from A1 of Liquid Waste on 11 at 10.0 uL/sec
+Aspirating 80.0 uL from A3 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Dispensing 110.0 uL into A1 of Liquid Waste on 11 at 150.0 uL/sec
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from A4 of Opentrons 96 Tip Rack 300 µL on 8
+Aspirating 60.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Aspirating 60.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Aspirating 10.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid Waste on 11 at 150.0 uL/sec
+Blowing out at A1 of Liquid Waste on 11
+Air gap
+	Aspirating 5.0 uL from A1 of Liquid Waste on 11 at 10.0 uL/sec
+Aspirating 5.0 uL from A1 of Liquid Waste on 11 at 10.0 uL/sec
+Aspirating 80.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Dispensing 110.0 uL into A1 of Liquid Waste on 11 at 150.0 uL/sec
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from A5 of Opentrons 96 Tip Rack 300 µL on 8
+Aspirating 60.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Aspirating 60.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Aspirating 10.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid Waste on 11 at 150.0 uL/sec
+Blowing out at A1 of Liquid Waste on 11
+Air gap
+	Aspirating 5.0 uL from A1 of Liquid Waste on 11 at 10.0 uL/sec
+Aspirating 5.0 uL from A1 of Liquid Waste on 11 at 10.0 uL/sec
+Aspirating 80.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Dispensing 110.0 uL into A1 of Liquid Waste on 11 at 150.0 uL/sec
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from A6 of Opentrons 96 Tip Rack 300 µL on 8
+Aspirating 60.0 uL from A6 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Aspirating 60.0 uL from A6 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Aspirating 10.0 uL from A6 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid Waste on 11 at 150.0 uL/sec
+Blowing out at A1 of Liquid Waste on 11
+Air gap
+	Aspirating 5.0 uL from A1 of Liquid Waste on 11 at 10.0 uL/sec
+Aspirating 5.0 uL from A1 of Liquid Waste on 11 at 10.0 uL/sec
+Aspirating 80.0 uL from A6 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Dispensing 110.0 uL into A1 of Liquid Waste on 11 at 150.0 uL/sec
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from A7 of Opentrons 96 Tip Rack 300 µL on 8
+Aspirating 60.0 uL from A7 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Aspirating 60.0 uL from A7 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Aspirating 10.0 uL from A7 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid Waste on 11 at 150.0 uL/sec
+Blowing out at A1 of Liquid Waste on 11
+Air gap
+	Aspirating 5.0 uL from A1 of Liquid Waste on 11 at 10.0 uL/sec
+Aspirating 5.0 uL from A1 of Liquid Waste on 11 at 10.0 uL/sec
+Aspirating 80.0 uL from A7 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Dispensing 110.0 uL into A1 of Liquid Waste on 11 at 150.0 uL/sec
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from A8 of Opentrons 96 Tip Rack 300 µL on 8
+Aspirating 60.0 uL from A8 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Aspirating 60.0 uL from A8 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Aspirating 10.0 uL from A8 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid Waste on 11 at 150.0 uL/sec
+Blowing out at A1 of Liquid Waste on 11
+Air gap
+	Aspirating 5.0 uL from A1 of Liquid Waste on 11 at 10.0 uL/sec
+Aspirating 5.0 uL from A1 of Liquid Waste on 11 at 10.0 uL/sec
+Aspirating 80.0 uL from A8 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Dispensing 110.0 uL into A1 of Liquid Waste on 11 at 150.0 uL/sec
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from A9 of Opentrons 96 Tip Rack 300 µL on 8
+Aspirating 60.0 uL from A9 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Aspirating 60.0 uL from A9 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Aspirating 10.0 uL from A9 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid Waste on 11 at 150.0 uL/sec
+Blowing out at A1 of Liquid Waste on 11
+Air gap
+	Aspirating 5.0 uL from A1 of Liquid Waste on 11 at 10.0 uL/sec
+Aspirating 5.0 uL from A1 of Liquid Waste on 11 at 10.0 uL/sec
+Aspirating 80.0 uL from A9 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Dispensing 110.0 uL into A1 of Liquid Waste on 11 at 150.0 uL/sec
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from A10 of Opentrons 96 Tip Rack 300 µL on 8
+Aspirating 60.0 uL from A10 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Aspirating 60.0 uL from A10 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Aspirating 10.0 uL from A10 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid Waste on 11 at 150.0 uL/sec
+Blowing out at A1 of Liquid Waste on 11
+Air gap
+	Aspirating 5.0 uL from A1 of Liquid Waste on 11 at 10.0 uL/sec
+Aspirating 5.0 uL from A1 of Liquid Waste on 11 at 10.0 uL/sec
+Aspirating 80.0 uL from A10 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Dispensing 110.0 uL into A1 of Liquid Waste on 11 at 150.0 uL/sec
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from A11 of Opentrons 96 Tip Rack 300 µL on 8
+Aspirating 60.0 uL from A11 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Aspirating 60.0 uL from A11 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Aspirating 10.0 uL from A11 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid Waste on 11 at 150.0 uL/sec
+Blowing out at A1 of Liquid Waste on 11
+Air gap
+	Aspirating 5.0 uL from A1 of Liquid Waste on 11 at 10.0 uL/sec
+Aspirating 5.0 uL from A1 of Liquid Waste on 11 at 10.0 uL/sec
+Aspirating 80.0 uL from A11 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Dispensing 110.0 uL into A1 of Liquid Waste on 11 at 150.0 uL/sec
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from A12 of Opentrons 96 Tip Rack 300 µL on 8
+Aspirating 60.0 uL from A12 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Aspirating 60.0 uL from A12 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Aspirating 10.0 uL from A12 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid Waste on 11 at 150.0 uL/sec
+Blowing out at A1 of Liquid Waste on 11
+Air gap
+	Aspirating 5.0 uL from A1 of Liquid Waste on 11 at 10.0 uL/sec
+Aspirating 5.0 uL from A1 of Liquid Waste on 11 at 10.0 uL/sec
+Aspirating 80.0 uL from A12 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Dispensing 110.0 uL into A1 of Liquid Waste on 11 at 150.0 uL/sec
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from A1 of Opentrons 96 Tip Rack 300 µL on 9
+Air gap
+	Aspirating 10.0 uL from A1 of Opentrons 96 Tip Rack 300 µL on 9 at 50.0 uL/sec
+Aspirating 120.0 uL from A1 of NEST 96 Deepwell Plate 2mL on 2 at 50.0 uL/sec
+Air gap
+	Aspirating 5.0 uL from A1 of NEST 96 Deepwell Plate 2mL on 2 at 50.0 uL/sec
+Dispensing 210.0 uL into A1 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 90.0 uL/sec
+Air gap
+	Aspirating 5.0 uL from A1 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Air gap
+	Aspirating 10.0 uL from A1 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Aspirating 120.0 uL from A1 of NEST 96 Deepwell Plate 2mL on 2 at 50.0 uL/sec
+Air gap
+	Aspirating 5.0 uL from A1 of NEST 96 Deepwell Plate 2mL on 2 at 50.0 uL/sec
+Dispensing 210.0 uL into A2 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 90.0 uL/sec
+Air gap
+	Aspirating 5.0 uL from A2 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Air gap
+	Aspirating 10.0 uL from A2 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Aspirating 120.0 uL from A1 of NEST 96 Deepwell Plate 2mL on 2 at 50.0 uL/sec
+Air gap
+	Aspirating 5.0 uL from A1 of NEST 96 Deepwell Plate 2mL on 2 at 50.0 uL/sec
+Dispensing 210.0 uL into A3 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 90.0 uL/sec
+Air gap
+	Aspirating 5.0 uL from A3 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Air gap
+	Aspirating 10.0 uL from A3 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Aspirating 120.0 uL from A1 of NEST 96 Deepwell Plate 2mL on 2 at 50.0 uL/sec
+Air gap
+	Aspirating 5.0 uL from A1 of NEST 96 Deepwell Plate 2mL on 2 at 50.0 uL/sec
+Dispensing 210.0 uL into A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 90.0 uL/sec
+Air gap
+	Aspirating 5.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Air gap
+	Aspirating 10.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Aspirating 120.0 uL from A2 of NEST 96 Deepwell Plate 2mL on 2 at 50.0 uL/sec
+Air gap
+	Aspirating 5.0 uL from A2 of NEST 96 Deepwell Plate 2mL on 2 at 50.0 uL/sec
+Dispensing 210.0 uL into A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 90.0 uL/sec
+Air gap
+	Aspirating 5.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Air gap
+	Aspirating 10.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Aspirating 120.0 uL from A2 of NEST 96 Deepwell Plate 2mL on 2 at 50.0 uL/sec
+Air gap
+	Aspirating 5.0 uL from A2 of NEST 96 Deepwell Plate 2mL on 2 at 50.0 uL/sec
+Dispensing 210.0 uL into A6 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 90.0 uL/sec
+Air gap
+	Aspirating 5.0 uL from A6 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Air gap
+	Aspirating 10.0 uL from A6 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Aspirating 120.0 uL from A2 of NEST 96 Deepwell Plate 2mL on 2 at 50.0 uL/sec
+Air gap
+	Aspirating 5.0 uL from A2 of NEST 96 Deepwell Plate 2mL on 2 at 50.0 uL/sec
+Dispensing 210.0 uL into A7 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 90.0 uL/sec
+Air gap
+	Aspirating 5.0 uL from A7 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Air gap
+	Aspirating 10.0 uL from A7 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Aspirating 120.0 uL from A2 of NEST 96 Deepwell Plate 2mL on 2 at 50.0 uL/sec
+Air gap
+	Aspirating 5.0 uL from A2 of NEST 96 Deepwell Plate 2mL on 2 at 50.0 uL/sec
+Dispensing 210.0 uL into A8 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 90.0 uL/sec
+Air gap
+	Aspirating 5.0 uL from A8 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Air gap
+	Aspirating 10.0 uL from A8 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Aspirating 120.0 uL from A3 of NEST 96 Deepwell Plate 2mL on 2 at 50.0 uL/sec
+Air gap
+	Aspirating 5.0 uL from A3 of NEST 96 Deepwell Plate 2mL on 2 at 50.0 uL/sec
+Dispensing 210.0 uL into A9 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 90.0 uL/sec
+Air gap
+	Aspirating 5.0 uL from A9 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Air gap
+	Aspirating 10.0 uL from A9 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Aspirating 120.0 uL from A3 of NEST 96 Deepwell Plate 2mL on 2 at 50.0 uL/sec
+Air gap
+	Aspirating 5.0 uL from A3 of NEST 96 Deepwell Plate 2mL on 2 at 50.0 uL/sec
+Dispensing 210.0 uL into A10 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 90.0 uL/sec
+Air gap
+	Aspirating 5.0 uL from A10 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Air gap
+	Aspirating 10.0 uL from A10 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Aspirating 120.0 uL from A3 of NEST 96 Deepwell Plate 2mL on 2 at 50.0 uL/sec
+Air gap
+	Aspirating 5.0 uL from A3 of NEST 96 Deepwell Plate 2mL on 2 at 50.0 uL/sec
+Dispensing 210.0 uL into A11 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 90.0 uL/sec
+Air gap
+	Aspirating 5.0 uL from A11 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Air gap
+	Aspirating 10.0 uL from A11 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Aspirating 120.0 uL from A3 of NEST 96 Deepwell Plate 2mL on 2 at 50.0 uL/sec
+Air gap
+	Aspirating 5.0 uL from A3 of NEST 96 Deepwell Plate 2mL on 2 at 50.0 uL/sec
+Dispensing 210.0 uL into A12 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 90.0 uL/sec
+Air gap
+	Aspirating 5.0 uL from A12 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Delaying for 0 minutes and 45.0 seconds
+Aspirating 60.0 uL from A1 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Aspirating 60.0 uL from A1 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Aspirating 10.0 uL from A1 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid Waste on 11 at 150.0 uL/sec
+Blowing out at A1 of Liquid Waste on 11
+Air gap
+	Aspirating 5.0 uL from A1 of Liquid Waste on 11 at 10.0 uL/sec
+Aspirating 5.0 uL from A1 of Liquid Waste on 11 at 10.0 uL/sec
+Aspirating 80.0 uL from A1 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Dispensing 110.0 uL into A1 of Liquid Waste on 11 at 150.0 uL/sec
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from A2 of Opentrons 96 Tip Rack 300 µL on 9
+Aspirating 60.0 uL from A2 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Aspirating 60.0 uL from A2 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Aspirating 10.0 uL from A2 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid Waste on 11 at 150.0 uL/sec
+Blowing out at A1 of Liquid Waste on 11
+Air gap
+	Aspirating 5.0 uL from A1 of Liquid Waste on 11 at 10.0 uL/sec
+Aspirating 5.0 uL from A1 of Liquid Waste on 11 at 10.0 uL/sec
+Aspirating 80.0 uL from A2 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Dispensing 110.0 uL into A1 of Liquid Waste on 11 at 150.0 uL/sec
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from A3 of Opentrons 96 Tip Rack 300 µL on 9
+Aspirating 60.0 uL from A3 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Aspirating 60.0 uL from A3 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Aspirating 10.0 uL from A3 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid Waste on 11 at 150.0 uL/sec
+Blowing out at A1 of Liquid Waste on 11
+Air gap
+	Aspirating 5.0 uL from A1 of Liquid Waste on 11 at 10.0 uL/sec
+Aspirating 5.0 uL from A1 of Liquid Waste on 11 at 10.0 uL/sec
+Aspirating 80.0 uL from A3 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Dispensing 110.0 uL into A1 of Liquid Waste on 11 at 150.0 uL/sec
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from A4 of Opentrons 96 Tip Rack 300 µL on 9
+Aspirating 60.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Aspirating 60.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Aspirating 10.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid Waste on 11 at 150.0 uL/sec
+Blowing out at A1 of Liquid Waste on 11
+Air gap
+	Aspirating 5.0 uL from A1 of Liquid Waste on 11 at 10.0 uL/sec
+Aspirating 5.0 uL from A1 of Liquid Waste on 11 at 10.0 uL/sec
+Aspirating 80.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Dispensing 110.0 uL into A1 of Liquid Waste on 11 at 150.0 uL/sec
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from A5 of Opentrons 96 Tip Rack 300 µL on 9
+Aspirating 60.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Aspirating 60.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Aspirating 10.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid Waste on 11 at 150.0 uL/sec
+Blowing out at A1 of Liquid Waste on 11
+Air gap
+	Aspirating 5.0 uL from A1 of Liquid Waste on 11 at 10.0 uL/sec
+Aspirating 5.0 uL from A1 of Liquid Waste on 11 at 10.0 uL/sec
+Aspirating 80.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Dispensing 110.0 uL into A1 of Liquid Waste on 11 at 150.0 uL/sec
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from A6 of Opentrons 96 Tip Rack 300 µL on 9
+Aspirating 60.0 uL from A6 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Aspirating 60.0 uL from A6 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Aspirating 10.0 uL from A6 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid Waste on 11 at 150.0 uL/sec
+Blowing out at A1 of Liquid Waste on 11
+Air gap
+	Aspirating 5.0 uL from A1 of Liquid Waste on 11 at 10.0 uL/sec
+Aspirating 5.0 uL from A1 of Liquid Waste on 11 at 10.0 uL/sec
+Aspirating 80.0 uL from A6 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Dispensing 110.0 uL into A1 of Liquid Waste on 11 at 150.0 uL/sec
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from A7 of Opentrons 96 Tip Rack 300 µL on 9
+Aspirating 60.0 uL from A7 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Aspirating 60.0 uL from A7 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Aspirating 10.0 uL from A7 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid Waste on 11 at 150.0 uL/sec
+Blowing out at A1 of Liquid Waste on 11
+Air gap
+	Aspirating 5.0 uL from A1 of Liquid Waste on 11 at 10.0 uL/sec
+Aspirating 5.0 uL from A1 of Liquid Waste on 11 at 10.0 uL/sec
+Aspirating 80.0 uL from A7 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Dispensing 110.0 uL into A1 of Liquid Waste on 11 at 150.0 uL/sec
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from A8 of Opentrons 96 Tip Rack 300 µL on 9
+Aspirating 60.0 uL from A8 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Aspirating 60.0 uL from A8 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Aspirating 10.0 uL from A8 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid Waste on 11 at 150.0 uL/sec
+Blowing out at A1 of Liquid Waste on 11
+Air gap
+	Aspirating 5.0 uL from A1 of Liquid Waste on 11 at 10.0 uL/sec
+Aspirating 5.0 uL from A1 of Liquid Waste on 11 at 10.0 uL/sec
+Aspirating 80.0 uL from A8 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Dispensing 110.0 uL into A1 of Liquid Waste on 11 at 150.0 uL/sec
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from A9 of Opentrons 96 Tip Rack 300 µL on 9
+Aspirating 60.0 uL from A9 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Aspirating 60.0 uL from A9 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Aspirating 10.0 uL from A9 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid Waste on 11 at 150.0 uL/sec
+Blowing out at A1 of Liquid Waste on 11
+Air gap
+	Aspirating 5.0 uL from A1 of Liquid Waste on 11 at 10.0 uL/sec
+Aspirating 5.0 uL from A1 of Liquid Waste on 11 at 10.0 uL/sec
+Aspirating 80.0 uL from A9 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Dispensing 110.0 uL into A1 of Liquid Waste on 11 at 150.0 uL/sec
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from A10 of Opentrons 96 Tip Rack 300 µL on 9
+Aspirating 60.0 uL from A10 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Aspirating 60.0 uL from A10 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Aspirating 10.0 uL from A10 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid Waste on 11 at 150.0 uL/sec
+Blowing out at A1 of Liquid Waste on 11
+Air gap
+	Aspirating 5.0 uL from A1 of Liquid Waste on 11 at 10.0 uL/sec
+Aspirating 5.0 uL from A1 of Liquid Waste on 11 at 10.0 uL/sec
+Aspirating 80.0 uL from A10 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Dispensing 110.0 uL into A1 of Liquid Waste on 11 at 150.0 uL/sec
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from A11 of Opentrons 96 Tip Rack 300 µL on 9
+Aspirating 60.0 uL from A11 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Aspirating 60.0 uL from A11 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Aspirating 10.0 uL from A11 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid Waste on 11 at 150.0 uL/sec
+Blowing out at A1 of Liquid Waste on 11
+Air gap
+	Aspirating 5.0 uL from A1 of Liquid Waste on 11 at 10.0 uL/sec
+Aspirating 5.0 uL from A1 of Liquid Waste on 11 at 10.0 uL/sec
+Aspirating 80.0 uL from A11 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Dispensing 110.0 uL into A1 of Liquid Waste on 11 at 150.0 uL/sec
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from A12 of Opentrons 96 Tip Rack 300 µL on 9
+Aspirating 60.0 uL from A12 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Aspirating 60.0 uL from A12 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Aspirating 10.0 uL from A12 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid Waste on 11 at 150.0 uL/sec
+Blowing out at A1 of Liquid Waste on 11
+Air gap
+	Aspirating 5.0 uL from A1 of Liquid Waste on 11 at 10.0 uL/sec
+Aspirating 5.0 uL from A1 of Liquid Waste on 11 at 10.0 uL/sec
+Aspirating 80.0 uL from A12 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Dispensing 110.0 uL into A1 of Liquid Waste on 11 at 150.0 uL/sec
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from A1 of Opentrons 96 Tip Rack 300 µL on 10
+Air gap
+	Aspirating 10.0 uL from A1 of Opentrons 96 Tip Rack 300 µL on 10 at 50.0 uL/sec
+Aspirating 120.0 uL from A1 of NEST 96 Deepwell Plate 2mL on 2 at 50.0 uL/sec
+Air gap
+	Aspirating 5.0 uL from A1 of NEST 96 Deepwell Plate 2mL on 2 at 50.0 uL/sec
+Dispensing 210.0 uL into A1 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 90.0 uL/sec
+Air gap
+	Aspirating 10.0 uL from A1 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Aspirating 120.0 uL from A1 of NEST 96 Deepwell Plate 2mL on 2 at 50.0 uL/sec
+Air gap
+	Aspirating 5.0 uL from A1 of NEST 96 Deepwell Plate 2mL on 2 at 50.0 uL/sec
+Dispensing 210.0 uL into A2 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 90.0 uL/sec
+Air gap
+	Aspirating 10.0 uL from A2 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Aspirating 120.0 uL from A1 of NEST 96 Deepwell Plate 2mL on 2 at 50.0 uL/sec
+Air gap
+	Aspirating 5.0 uL from A1 of NEST 96 Deepwell Plate 2mL on 2 at 50.0 uL/sec
+Dispensing 210.0 uL into A3 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 90.0 uL/sec
+Air gap
+	Aspirating 10.0 uL from A3 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Aspirating 120.0 uL from A1 of NEST 96 Deepwell Plate 2mL on 2 at 50.0 uL/sec
+Air gap
+	Aspirating 5.0 uL from A1 of NEST 96 Deepwell Plate 2mL on 2 at 50.0 uL/sec
+Dispensing 210.0 uL into A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 90.0 uL/sec
+Air gap
+	Aspirating 10.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Aspirating 120.0 uL from A2 of NEST 96 Deepwell Plate 2mL on 2 at 50.0 uL/sec
+Air gap
+	Aspirating 5.0 uL from A2 of NEST 96 Deepwell Plate 2mL on 2 at 50.0 uL/sec
+Dispensing 210.0 uL into A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 90.0 uL/sec
+Air gap
+	Aspirating 10.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Aspirating 120.0 uL from A2 of NEST 96 Deepwell Plate 2mL on 2 at 50.0 uL/sec
+Air gap
+	Aspirating 5.0 uL from A2 of NEST 96 Deepwell Plate 2mL on 2 at 50.0 uL/sec
+Dispensing 210.0 uL into A6 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 90.0 uL/sec
+Air gap
+	Aspirating 10.0 uL from A6 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Aspirating 120.0 uL from A2 of NEST 96 Deepwell Plate 2mL on 2 at 50.0 uL/sec
+Air gap
+	Aspirating 5.0 uL from A2 of NEST 96 Deepwell Plate 2mL on 2 at 50.0 uL/sec
+Dispensing 210.0 uL into A7 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 90.0 uL/sec
+Air gap
+	Aspirating 10.0 uL from A7 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Aspirating 120.0 uL from A2 of NEST 96 Deepwell Plate 2mL on 2 at 50.0 uL/sec
+Air gap
+	Aspirating 5.0 uL from A2 of NEST 96 Deepwell Plate 2mL on 2 at 50.0 uL/sec
+Dispensing 210.0 uL into A8 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 90.0 uL/sec
+Air gap
+	Aspirating 10.0 uL from A8 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Aspirating 120.0 uL from A3 of NEST 96 Deepwell Plate 2mL on 2 at 50.0 uL/sec
+Air gap
+	Aspirating 5.0 uL from A3 of NEST 96 Deepwell Plate 2mL on 2 at 50.0 uL/sec
+Dispensing 210.0 uL into A9 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 90.0 uL/sec
+Air gap
+	Aspirating 10.0 uL from A9 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Aspirating 120.0 uL from A3 of NEST 96 Deepwell Plate 2mL on 2 at 50.0 uL/sec
+Air gap
+	Aspirating 5.0 uL from A3 of NEST 96 Deepwell Plate 2mL on 2 at 50.0 uL/sec
+Dispensing 210.0 uL into A10 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 90.0 uL/sec
+Air gap
+	Aspirating 10.0 uL from A10 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Aspirating 120.0 uL from A3 of NEST 96 Deepwell Plate 2mL on 2 at 50.0 uL/sec
+Air gap
+	Aspirating 5.0 uL from A3 of NEST 96 Deepwell Plate 2mL on 2 at 50.0 uL/sec
+Dispensing 210.0 uL into A11 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 90.0 uL/sec
+Air gap
+	Aspirating 10.0 uL from A11 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Aspirating 120.0 uL from A3 of NEST 96 Deepwell Plate 2mL on 2 at 50.0 uL/sec
+Air gap
+	Aspirating 5.0 uL from A3 of NEST 96 Deepwell Plate 2mL on 2 at 50.0 uL/sec
+Dispensing 210.0 uL into A12 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 90.0 uL/sec
+Delaying for 0 minutes and 20.0 seconds
+Aspirating 60.0 uL from A1 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Aspirating 60.0 uL from A1 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Aspirating 10.0 uL from A1 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid Waste on 11 at 150.0 uL/sec
+Blowing out at A1 of Liquid Waste on 11
+Air gap
+	Aspirating 5.0 uL from A1 of Liquid Waste on 11 at 10.0 uL/sec
+Aspirating 5.0 uL from A1 of Liquid Waste on 11 at 10.0 uL/sec
+Aspirating 80.0 uL from A1 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Dispensing 110.0 uL into A1 of Liquid Waste on 11 at 150.0 uL/sec
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from A2 of Opentrons 96 Tip Rack 300 µL on 10
+Aspirating 60.0 uL from A2 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Aspirating 60.0 uL from A2 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Aspirating 10.0 uL from A2 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid Waste on 11 at 150.0 uL/sec
+Blowing out at A1 of Liquid Waste on 11
+Air gap
+	Aspirating 5.0 uL from A1 of Liquid Waste on 11 at 10.0 uL/sec
+Aspirating 5.0 uL from A1 of Liquid Waste on 11 at 10.0 uL/sec
+Aspirating 80.0 uL from A2 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Dispensing 110.0 uL into A1 of Liquid Waste on 11 at 150.0 uL/sec
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from A3 of Opentrons 96 Tip Rack 300 µL on 10
+Aspirating 60.0 uL from A3 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Aspirating 60.0 uL from A3 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Aspirating 10.0 uL from A3 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid Waste on 11 at 150.0 uL/sec
+Blowing out at A1 of Liquid Waste on 11
+Air gap
+	Aspirating 5.0 uL from A1 of Liquid Waste on 11 at 10.0 uL/sec
+Aspirating 5.0 uL from A1 of Liquid Waste on 11 at 10.0 uL/sec
+Aspirating 80.0 uL from A3 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Dispensing 110.0 uL into A1 of Liquid Waste on 11 at 150.0 uL/sec
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from A4 of Opentrons 96 Tip Rack 300 µL on 10
+Aspirating 60.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Aspirating 60.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Aspirating 10.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid Waste on 11 at 150.0 uL/sec
+Blowing out at A1 of Liquid Waste on 11
+Air gap
+	Aspirating 5.0 uL from A1 of Liquid Waste on 11 at 10.0 uL/sec
+Aspirating 5.0 uL from A1 of Liquid Waste on 11 at 10.0 uL/sec
+Aspirating 80.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Dispensing 110.0 uL into A1 of Liquid Waste on 11 at 150.0 uL/sec
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from A5 of Opentrons 96 Tip Rack 300 µL on 10
+Aspirating 60.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Aspirating 60.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Aspirating 10.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid Waste on 11 at 150.0 uL/sec
+Blowing out at A1 of Liquid Waste on 11
+Air gap
+	Aspirating 5.0 uL from A1 of Liquid Waste on 11 at 10.0 uL/sec
+Aspirating 5.0 uL from A1 of Liquid Waste on 11 at 10.0 uL/sec
+Aspirating 80.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Dispensing 110.0 uL into A1 of Liquid Waste on 11 at 150.0 uL/sec
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from A6 of Opentrons 96 Tip Rack 300 µL on 10
+Aspirating 60.0 uL from A6 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Aspirating 60.0 uL from A6 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Aspirating 10.0 uL from A6 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid Waste on 11 at 150.0 uL/sec
+Blowing out at A1 of Liquid Waste on 11
+Air gap
+	Aspirating 5.0 uL from A1 of Liquid Waste on 11 at 10.0 uL/sec
+Aspirating 5.0 uL from A1 of Liquid Waste on 11 at 10.0 uL/sec
+Aspirating 80.0 uL from A6 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Dispensing 110.0 uL into A1 of Liquid Waste on 11 at 150.0 uL/sec
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from A7 of Opentrons 96 Tip Rack 300 µL on 10
+Aspirating 60.0 uL from A7 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Aspirating 60.0 uL from A7 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Aspirating 10.0 uL from A7 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid Waste on 11 at 150.0 uL/sec
+Blowing out at A1 of Liquid Waste on 11
+Air gap
+	Aspirating 5.0 uL from A1 of Liquid Waste on 11 at 10.0 uL/sec
+Aspirating 5.0 uL from A1 of Liquid Waste on 11 at 10.0 uL/sec
+Aspirating 80.0 uL from A7 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Dispensing 110.0 uL into A1 of Liquid Waste on 11 at 150.0 uL/sec
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from A8 of Opentrons 96 Tip Rack 300 µL on 10
+Aspirating 60.0 uL from A8 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Aspirating 60.0 uL from A8 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Aspirating 10.0 uL from A8 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid Waste on 11 at 150.0 uL/sec
+Blowing out at A1 of Liquid Waste on 11
+Air gap
+	Aspirating 5.0 uL from A1 of Liquid Waste on 11 at 10.0 uL/sec
+Aspirating 5.0 uL from A1 of Liquid Waste on 11 at 10.0 uL/sec
+Aspirating 80.0 uL from A8 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Dispensing 110.0 uL into A1 of Liquid Waste on 11 at 150.0 uL/sec
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from A9 of Opentrons 96 Tip Rack 300 µL on 10
+Aspirating 60.0 uL from A9 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Aspirating 60.0 uL from A9 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Aspirating 10.0 uL from A9 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid Waste on 11 at 150.0 uL/sec
+Blowing out at A1 of Liquid Waste on 11
+Air gap
+	Aspirating 5.0 uL from A1 of Liquid Waste on 11 at 10.0 uL/sec
+Aspirating 5.0 uL from A1 of Liquid Waste on 11 at 10.0 uL/sec
+Aspirating 80.0 uL from A9 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Dispensing 110.0 uL into A1 of Liquid Waste on 11 at 150.0 uL/sec
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from A10 of Opentrons 96 Tip Rack 300 µL on 10
+Aspirating 60.0 uL from A10 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Aspirating 60.0 uL from A10 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Aspirating 10.0 uL from A10 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid Waste on 11 at 150.0 uL/sec
+Blowing out at A1 of Liquid Waste on 11
+Air gap
+	Aspirating 5.0 uL from A1 of Liquid Waste on 11 at 10.0 uL/sec
+Aspirating 5.0 uL from A1 of Liquid Waste on 11 at 10.0 uL/sec
+Aspirating 80.0 uL from A10 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Dispensing 110.0 uL into A1 of Liquid Waste on 11 at 150.0 uL/sec
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from A11 of Opentrons 96 Tip Rack 300 µL on 10
+Aspirating 60.0 uL from A11 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Aspirating 60.0 uL from A11 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Aspirating 10.0 uL from A11 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid Waste on 11 at 150.0 uL/sec
+Blowing out at A1 of Liquid Waste on 11
+Air gap
+	Aspirating 5.0 uL from A1 of Liquid Waste on 11 at 10.0 uL/sec
+Aspirating 5.0 uL from A1 of Liquid Waste on 11 at 10.0 uL/sec
+Aspirating 80.0 uL from A11 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Dispensing 110.0 uL into A1 of Liquid Waste on 11 at 150.0 uL/sec
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from A12 of Opentrons 96 Tip Rack 300 µL on 10
+Aspirating 60.0 uL from A12 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Aspirating 60.0 uL from A12 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Aspirating 10.0 uL from A12 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid Waste on 11 at 150.0 uL/sec
+Blowing out at A1 of Liquid Waste on 11
+Air gap
+	Aspirating 5.0 uL from A1 of Liquid Waste on 11 at 10.0 uL/sec
+Aspirating 5.0 uL from A1 of Liquid Waste on 11 at 10.0 uL/sec
+Aspirating 80.0 uL from A12 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Dispensing 110.0 uL into A1 of Liquid Waste on 11 at 150.0 uL/sec
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Place plate with idexes in warm_plate position
+Disengaging Magnetic Module
+Picking up tip from A1 of Opentrons 96 Tip Rack 300 µL on 4
+Aspirating 20.5 uL from A4 of NEST 96 Deepwell Plate 2mL on 2 at 50.0 uL/sec
+Delaying for 0 minutes and 3.0 seconds
+Dispensing 20.5 uL into A1 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 70.0 uL/sec
+Blowing out at A1 of Mag_Sample_Plate on Magnetic Module GEN2 on 1
+Aspirating 5.0 uL from A1 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Aspirating 10.5 uL from A1 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 10.5 uL into A1 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 10.5 uL from A1 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 10.5 uL into A1 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 10.5 uL from A1 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 10.5 uL into A1 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 10.5 uL from A1 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 10.5 uL into A1 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 10.5 uL from A1 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 10.5 uL into A1 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 10.5 uL from A1 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 10.5 uL into A1 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 10.5 uL from A1 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 10.5 uL into A1 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 10.5 uL from A1 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 10.5 uL into A1 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 10.5 uL from A1 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 10.5 uL into A1 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 10.5 uL from A1 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 70.0 uL/sec
+Dispensing 10.5 uL into A1 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Blowing out at A1 of Mag_Sample_Plate on Magnetic Module GEN2 on 1
+Touching tip
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from A2 of Opentrons 96 Tip Rack 300 µL on 4
+Aspirating 20.5 uL from A4 of NEST 96 Deepwell Plate 2mL on 2 at 20.0 uL/sec
+Delaying for 0 minutes and 3.0 seconds
+Dispensing 20.5 uL into A2 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Blowing out at A2 of Mag_Sample_Plate on Magnetic Module GEN2 on 1
+Aspirating 5.0 uL from A2 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Aspirating 10.5 uL from A2 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 10.5 uL into A2 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 10.5 uL from A2 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 10.5 uL into A2 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 10.5 uL from A2 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 10.5 uL into A2 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 10.5 uL from A2 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 10.5 uL into A2 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 10.5 uL from A2 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 10.5 uL into A2 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 10.5 uL from A2 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 10.5 uL into A2 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 10.5 uL from A2 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 10.5 uL into A2 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 10.5 uL from A2 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 10.5 uL into A2 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 10.5 uL from A2 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 10.5 uL into A2 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 10.5 uL from A2 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 70.0 uL/sec
+Dispensing 10.5 uL into A2 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A2 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Blowing out at A2 of Mag_Sample_Plate on Magnetic Module GEN2 on 1
+Touching tip
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from A3 of Opentrons 96 Tip Rack 300 µL on 4
+Aspirating 20.5 uL from A4 of NEST 96 Deepwell Plate 2mL on 2 at 20.0 uL/sec
+Delaying for 0 minutes and 3.0 seconds
+Dispensing 20.5 uL into A3 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Blowing out at A3 of Mag_Sample_Plate on Magnetic Module GEN2 on 1
+Aspirating 5.0 uL from A3 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Aspirating 10.5 uL from A3 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 10.5 uL into A3 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 10.5 uL from A3 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 10.5 uL into A3 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 10.5 uL from A3 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 10.5 uL into A3 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 10.5 uL from A3 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 10.5 uL into A3 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 10.5 uL from A3 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 10.5 uL into A3 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 10.5 uL from A3 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 10.5 uL into A3 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 10.5 uL from A3 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 10.5 uL into A3 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 10.5 uL from A3 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 10.5 uL into A3 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 10.5 uL from A3 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 10.5 uL into A3 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 10.5 uL from A3 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 70.0 uL/sec
+Dispensing 10.5 uL into A3 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A3 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Blowing out at A3 of Mag_Sample_Plate on Magnetic Module GEN2 on 1
+Touching tip
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from A4 of Opentrons 96 Tip Rack 300 µL on 4
+Aspirating 20.5 uL from A4 of NEST 96 Deepwell Plate 2mL on 2 at 20.0 uL/sec
+Delaying for 0 minutes and 3.0 seconds
+Dispensing 20.5 uL into A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Blowing out at A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1
+Aspirating 5.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Aspirating 10.5 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 10.5 uL into A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 10.5 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 10.5 uL into A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 10.5 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 10.5 uL into A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 10.5 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 10.5 uL into A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 10.5 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 10.5 uL into A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 10.5 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 10.5 uL into A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 10.5 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 10.5 uL into A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 10.5 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 10.5 uL into A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 10.5 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 10.5 uL into A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 10.5 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 70.0 uL/sec
+Dispensing 10.5 uL into A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Blowing out at A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1
+Touching tip
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from A5 of Opentrons 96 Tip Rack 300 µL on 4
+Aspirating 20.5 uL from A4 of NEST 96 Deepwell Plate 2mL on 2 at 20.0 uL/sec
+Delaying for 0 minutes and 3.0 seconds
+Dispensing 20.5 uL into A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Blowing out at A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1
+Aspirating 5.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Aspirating 10.5 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 10.5 uL into A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 10.5 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 10.5 uL into A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 10.5 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 10.5 uL into A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 10.5 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 10.5 uL into A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 10.5 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 10.5 uL into A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 10.5 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 10.5 uL into A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 10.5 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 10.5 uL into A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 10.5 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 10.5 uL into A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 10.5 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 10.5 uL into A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 10.5 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 70.0 uL/sec
+Dispensing 10.5 uL into A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Blowing out at A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1
+Touching tip
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from A6 of Opentrons 96 Tip Rack 300 µL on 4
+Aspirating 20.5 uL from A4 of NEST 96 Deepwell Plate 2mL on 2 at 20.0 uL/sec
+Delaying for 0 minutes and 3.0 seconds
+Dispensing 20.5 uL into A6 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Blowing out at A6 of Mag_Sample_Plate on Magnetic Module GEN2 on 1
+Aspirating 5.0 uL from A6 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Aspirating 10.5 uL from A6 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 10.5 uL into A6 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 10.5 uL from A6 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 10.5 uL into A6 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 10.5 uL from A6 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 10.5 uL into A6 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 10.5 uL from A6 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 10.5 uL into A6 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 10.5 uL from A6 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 10.5 uL into A6 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 10.5 uL from A6 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 10.5 uL into A6 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 10.5 uL from A6 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 10.5 uL into A6 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 10.5 uL from A6 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 10.5 uL into A6 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 10.5 uL from A6 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 10.5 uL into A6 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 10.5 uL from A6 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 70.0 uL/sec
+Dispensing 10.5 uL into A6 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A6 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Blowing out at A6 of Mag_Sample_Plate on Magnetic Module GEN2 on 1
+Touching tip
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from A7 of Opentrons 96 Tip Rack 300 µL on 4
+Aspirating 20.5 uL from A4 of NEST 96 Deepwell Plate 2mL on 2 at 20.0 uL/sec
+Delaying for 0 minutes and 3.0 seconds
+Dispensing 20.5 uL into A7 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Blowing out at A7 of Mag_Sample_Plate on Magnetic Module GEN2 on 1
+Aspirating 5.0 uL from A7 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Aspirating 10.5 uL from A7 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 10.5 uL into A7 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 10.5 uL from A7 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 10.5 uL into A7 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 10.5 uL from A7 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 10.5 uL into A7 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 10.5 uL from A7 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 10.5 uL into A7 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 10.5 uL from A7 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 10.5 uL into A7 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 10.5 uL from A7 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 10.5 uL into A7 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 10.5 uL from A7 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 10.5 uL into A7 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 10.5 uL from A7 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 10.5 uL into A7 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 10.5 uL from A7 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 10.5 uL into A7 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 10.5 uL from A7 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 70.0 uL/sec
+Dispensing 10.5 uL into A7 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A7 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Blowing out at A7 of Mag_Sample_Plate on Magnetic Module GEN2 on 1
+Touching tip
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from A8 of Opentrons 96 Tip Rack 300 µL on 4
+Aspirating 20.5 uL from A4 of NEST 96 Deepwell Plate 2mL on 2 at 20.0 uL/sec
+Delaying for 0 minutes and 3.0 seconds
+Dispensing 20.5 uL into A8 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Blowing out at A8 of Mag_Sample_Plate on Magnetic Module GEN2 on 1
+Aspirating 5.0 uL from A8 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Aspirating 10.5 uL from A8 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 10.5 uL into A8 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 10.5 uL from A8 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 10.5 uL into A8 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 10.5 uL from A8 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 10.5 uL into A8 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 10.5 uL from A8 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 10.5 uL into A8 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 10.5 uL from A8 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 10.5 uL into A8 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 10.5 uL from A8 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 10.5 uL into A8 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 10.5 uL from A8 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 10.5 uL into A8 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 10.5 uL from A8 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 10.5 uL into A8 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 10.5 uL from A8 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 10.5 uL into A8 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 10.5 uL from A8 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 70.0 uL/sec
+Dispensing 10.5 uL into A8 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A8 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Blowing out at A8 of Mag_Sample_Plate on Magnetic Module GEN2 on 1
+Touching tip
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from A9 of Opentrons 96 Tip Rack 300 µL on 4
+Aspirating 20.5 uL from A4 of NEST 96 Deepwell Plate 2mL on 2 at 20.0 uL/sec
+Delaying for 0 minutes and 3.0 seconds
+Dispensing 20.5 uL into A9 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Blowing out at A9 of Mag_Sample_Plate on Magnetic Module GEN2 on 1
+Aspirating 5.0 uL from A9 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Aspirating 10.5 uL from A9 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 10.5 uL into A9 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 10.5 uL from A9 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 10.5 uL into A9 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 10.5 uL from A9 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 10.5 uL into A9 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 10.5 uL from A9 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 10.5 uL into A9 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 10.5 uL from A9 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 10.5 uL into A9 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 10.5 uL from A9 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 10.5 uL into A9 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 10.5 uL from A9 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 10.5 uL into A9 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 10.5 uL from A9 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 10.5 uL into A9 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 10.5 uL from A9 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 10.5 uL into A9 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 10.5 uL from A9 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 70.0 uL/sec
+Dispensing 10.5 uL into A9 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A9 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Blowing out at A9 of Mag_Sample_Plate on Magnetic Module GEN2 on 1
+Touching tip
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from A10 of Opentrons 96 Tip Rack 300 µL on 4
+Aspirating 20.5 uL from A4 of NEST 96 Deepwell Plate 2mL on 2 at 20.0 uL/sec
+Delaying for 0 minutes and 3.0 seconds
+Dispensing 20.5 uL into A10 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Blowing out at A10 of Mag_Sample_Plate on Magnetic Module GEN2 on 1
+Aspirating 5.0 uL from A10 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Aspirating 10.5 uL from A10 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 10.5 uL into A10 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 10.5 uL from A10 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 10.5 uL into A10 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 10.5 uL from A10 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 10.5 uL into A10 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 10.5 uL from A10 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 10.5 uL into A10 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 10.5 uL from A10 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 10.5 uL into A10 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 10.5 uL from A10 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 10.5 uL into A10 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 10.5 uL from A10 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 10.5 uL into A10 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 10.5 uL from A10 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 10.5 uL into A10 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 10.5 uL from A10 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 10.5 uL into A10 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 10.5 uL from A10 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 70.0 uL/sec
+Dispensing 10.5 uL into A10 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A10 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Blowing out at A10 of Mag_Sample_Plate on Magnetic Module GEN2 on 1
+Touching tip
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from A11 of Opentrons 96 Tip Rack 300 µL on 4
+Aspirating 20.5 uL from A4 of NEST 96 Deepwell Plate 2mL on 2 at 20.0 uL/sec
+Delaying for 0 minutes and 3.0 seconds
+Dispensing 20.5 uL into A11 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Blowing out at A11 of Mag_Sample_Plate on Magnetic Module GEN2 on 1
+Aspirating 5.0 uL from A11 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Aspirating 10.5 uL from A11 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 10.5 uL into A11 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 10.5 uL from A11 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 10.5 uL into A11 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 10.5 uL from A11 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 10.5 uL into A11 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 10.5 uL from A11 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 10.5 uL into A11 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 10.5 uL from A11 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 10.5 uL into A11 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 10.5 uL from A11 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 10.5 uL into A11 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 10.5 uL from A11 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 10.5 uL into A11 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 10.5 uL from A11 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 10.5 uL into A11 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 10.5 uL from A11 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 10.5 uL into A11 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 10.5 uL from A11 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 70.0 uL/sec
+Dispensing 10.5 uL into A11 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A11 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Blowing out at A11 of Mag_Sample_Plate on Magnetic Module GEN2 on 1
+Touching tip
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from A12 of Opentrons 96 Tip Rack 300 µL on 4
+Aspirating 20.5 uL from A4 of NEST 96 Deepwell Plate 2mL on 2 at 20.0 uL/sec
+Delaying for 0 minutes and 3.0 seconds
+Dispensing 20.5 uL into A12 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Blowing out at A12 of Mag_Sample_Plate on Magnetic Module GEN2 on 1
+Aspirating 5.0 uL from A12 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Aspirating 10.5 uL from A12 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 10.5 uL into A12 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 10.5 uL from A12 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 10.5 uL into A12 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 10.5 uL from A12 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 10.5 uL into A12 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 10.5 uL from A12 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 10.5 uL into A12 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 10.5 uL from A12 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 10.5 uL into A12 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 10.5 uL from A12 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 10.5 uL into A12 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 10.5 uL from A12 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 10.5 uL into A12 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 10.5 uL from A12 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 10.5 uL into A12 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 10.5 uL from A12 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 10.5 uL into A12 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 10.5 uL from A12 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 70.0 uL/sec
+Dispensing 10.5 uL into A12 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A12 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Blowing out at A12 of Mag_Sample_Plate on Magnetic Module GEN2 on 1
+Touching tip
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Delaying for 2 minutes and 0.0 seconds
+Engaging Magnetic Module
+Delaying for 5 minutes and 0.0 seconds
+Part 2 Done!
