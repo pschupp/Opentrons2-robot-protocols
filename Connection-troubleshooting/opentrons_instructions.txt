@@ -1,0 +1,15 @@
+    1. Jupyter Notebook/Hub: http://10.36.204.109:4568
+    2. Enter: opentrons_patrick/oldham_scripts
+    3. Edit “zymo.magbead.dna.sep.mammalian.py”
+    4. In JupyterHub, New=> Terminal
+    5. “cd ~/opentrons_patrick/oldham_scripts”
+    6. “scp -i ot2_ssh_key *py root@169.254.153.132:~/opentrons_patrick/oldham_scripts”
+    7. “ssh -i ot2_ssh_key root@169.254.153.132”
+    8. “cd ~/opentrons_patrick/oldham_scripts”
+    9. “export PYTHONPATH=$(pwd):$PYTHONPATH”
+    10. “opentrons_simulate zymo.magbead.dna.sep.mammalian.py > out.txt”
+    11. “vi out.txt”, “:q” to quit
+    12. Check for errors get instructions on how to set up space
+    13. “http://10.36.204.109:4569/”; Action=>Start Event
+    14. “opentrons_execute zymo.magbead.dna.sep.mammalian.py > out.txt”
+    15. “http://10.36.204.109:4569/”; Action=>End Event

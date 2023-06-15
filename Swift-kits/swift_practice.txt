@@ -1,0 +1,1339 @@
+/home/daniel/Desktop/opentrons_protocols
+0
+2021-05-13 13:40:51.646805
+Processing 16 samples using 2 columns
+Using 1 racks of p20 tips in slot(s) ['4']
+Using 5 racks of p300 tips in slot(s) ['5', '8', '9', '10']
+'vol.to.add' refers to the volume added over the entire protocol,i.e. 500*2=1000 ul ethanol
+Fragmentation Master Mix
+{'reservoir.type': '96well100', 'reservoir.volume': 36.0, 'vol.to.add': 15, 'total.volume': 288.0, 'reservoir.number': 1, 'well.uses': [2]}
+Reverse Transcription Master Mix
+{'reservoir.type': '96well100', 'reservoir.volume': 15.6, 'vol.to.add': 6.5, 'total.volume': 124.8, 'reservoir.number': 1, 'well.uses': [2]}
+Adaptase Master Mix
+{'reservoir.type': '96well100', 'reservoir.volume': 26.4, 'vol.to.add': 11, 'total.volume': 211.2, 'reservoir.number': 1, 'well.uses': [2]}
+Extension Master Mix
+{'reservoir.type': '96well100', 'reservoir.volume': 56.4, 'vol.to.add': 23.5, 'total.volume': 451.2, 'reservoir.number': 1, 'well.uses': [2]}
+Ligation Master Mix
+{'reservoir.type': '96well100', 'reservoir.volume': 37.2, 'vol.to.add': 15.5, 'total.volume': 297.6, 'reservoir.number': 1, 'well.uses': [2]}
+PCR Master Mix
+{'reservoir.type': '96well100', 'reservoir.volume': 61.2, 'vol.to.add': 25.5, 'total.volume': 489.6, 'reservoir.number': 1, 'well.uses': [2]}
+Mag Beads
+{'reservoir.type': '96well2000', 'reservoir.volume': 563.28, 'vol.to.add': 234.7, 'total.volume': 4506.24, 'reservoir.number': 1, 'well.uses': [2]}
+Ethanol
+{'reservoir.type': '96well2000', 'reservoir.volume': [2160.0, 2160.0], 'vol.to.add': 1800, 'total.volume': 34560.0, 'reservoir.number': 2, 'well.uses': [1, 1]}
+Low EDTA TE
+{'reservoir.type': '96well2000', 'reservoir.volume': 372.0, 'vol.to.add': 155, 'total.volume': 2976.0, 'reservoir.number': 1, 'well.uses': [2]}
+magnetic module in slot 1
+liquid waste in slot 11
+thermal module in slot 6
+rt_reagents 96-well plate in slot 3
+cold 96-well plate in slot 2
+[A1 of Opentrons 96 Tip Rack 300 µL on 5, A2 of Opentrons 96 Tip Rack 300 µL on 5]
+[A3 of Opentrons 96 Tip Rack 300 µL on 5, A4 of Opentrons 96 Tip Rack 300 µL on 5]
+[]
+p20 multichannel mounted on right arm
+p300 multichannel mounted on left arm
+
+
+Revers transcription mastermix here:
+15.6
+A2 of Cool_Reagent_Plate on Temperature Module GEN2 on 6
+None
+
+
+Adaptase master mix here:
+26.4
+A3 of Cool_Reagent_Plate on Temperature Module GEN2 on 6
+None
+
+
+Extension mm here:
+56.4
+A4 of Cool_Reagent_Plate on Temperature Module GEN2 on 6
+None
+
+
+Ligation mm here:
+37.2
+A5 of Cool_Reagent_Plate on Temperature Module GEN2 on 6
+None
+
+
+PCR here:
+61.2
+A6 of Cool_Reagent_Plate on Temperature Module GEN2 on 6
+None
+
+
+mag bead here:
+563.28
+A1 of USA Scientific 12 Well Reservoir 22 mL on 3
+None
+
+
+Guess what line it is... 433
+You made it to line... 464
+You made it to line... 469
+You made it to line... 475
+Guess what line it is... 487
+You made it to line... 513
+You made it to line... 520
+You made it to line... 526
+You made it to line... 530
+You made it to line... 535
+You made it to line... 551
+You made it to line... 581
+Setting Temperature Module temperature to 32.0 °C (rounded off to nearest integer)
+Engaging Magnetic Module
+Engaging Magnetic Module and incubate for 6 minutes.
+Delaying for 0 minutes and 36.0 seconds
+Transfer Supernatent from Magnet plate to Cold plate
+Picking up tip from A1 of Opentrons 96 Tip Rack 20 µL on 4
+Aspirating 14.5 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Dispensing 14.5 uL into A4 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 40.0 uL/sec
+Blowing out at A4 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2
+Touching tip
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from A2 of Opentrons 96 Tip Rack 20 µL on 4
+Aspirating 14.5 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Dispensing 14.5 uL into A5 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 40.0 uL/sec
+Blowing out at A5 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2
+Touching tip
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Disengaging Magnetic Module
+lin4 404
+Incubating for 2 minutes.
+Delaying for 0 minutes and 12.0 seconds
+Picking up tip from A3 of Opentrons 96 Tip Rack 20 µL on 4
+Aspirating 1.0 uL from A2 of Cool_Reagent_Plate on Temperature Module GEN2 on 6 at 10.0 uL/sec
+Aspirating 10.0 uL from A2 of Cool_Reagent_Plate on Temperature Module GEN2 on 6 at 10.0 uL/sec
+Dispensing 10.0 uL into A2 of Cool_Reagent_Plate on Temperature Module GEN2 on 6 at 30.0 uL/sec
+Aspirating 10.0 uL from A2 of Cool_Reagent_Plate on Temperature Module GEN2 on 6 at 10.0 uL/sec
+Dispensing 10.0 uL into A2 of Cool_Reagent_Plate on Temperature Module GEN2 on 6 at 30.0 uL/sec
+Aspirating 8.5 uL from A2 of Cool_Reagent_Plate on Temperature Module GEN2 on 6 at 10.0 uL/sec
+Dispensing 8.5 uL into A2 of Cool_Reagent_Plate on Temperature Module GEN2 on 6 at 30.0 uL/sec
+Aspirating 8.5 uL from A2 of Cool_Reagent_Plate on Temperature Module GEN2 on 6 at 10.0 uL/sec
+Dispensing 8.5 uL into A2 of Cool_Reagent_Plate on Temperature Module GEN2 on 6 at 30.0 uL/sec
+Aspirating 8.5 uL from A2 of Cool_Reagent_Plate on Temperature Module GEN2 on 6 at 10.0 uL/sec
+Dispensing 8.5 uL into A2 of Cool_Reagent_Plate on Temperature Module GEN2 on 6 at 30.0 uL/sec
+Aspirating 8.5 uL from A2 of Cool_Reagent_Plate on Temperature Module GEN2 on 6 at 10.0 uL/sec
+Dispensing 8.5 uL into A2 of Cool_Reagent_Plate on Temperature Module GEN2 on 6 at 30.0 uL/sec
+Blowing out at A2 of Cool_Reagent_Plate on Temperature Module GEN2 on 6
+Aspirating 1.0 uL from A2 of Cool_Reagent_Plate on Temperature Module GEN2 on 6 at 10.0 uL/sec
+Aspirating 10.0 uL from A2 of Cool_Reagent_Plate on Temperature Module GEN2 on 6 at 10.0 uL/sec
+Dispensing 10.0 uL into A2 of Cool_Reagent_Plate on Temperature Module GEN2 on 6 at 30.0 uL/sec
+Aspirating 10.0 uL from A2 of Cool_Reagent_Plate on Temperature Module GEN2 on 6 at 10.0 uL/sec
+Dispensing 10.0 uL into A2 of Cool_Reagent_Plate on Temperature Module GEN2 on 6 at 30.0 uL/sec
+Aspirating 3.5 uL from A2 of Cool_Reagent_Plate on Temperature Module GEN2 on 6 at 10.0 uL/sec
+Dispensing 3.5 uL into A2 of Cool_Reagent_Plate on Temperature Module GEN2 on 6 at 30.0 uL/sec
+Aspirating 3.5 uL from A2 of Cool_Reagent_Plate on Temperature Module GEN2 on 6 at 10.0 uL/sec
+Dispensing 3.5 uL into A2 of Cool_Reagent_Plate on Temperature Module GEN2 on 6 at 30.0 uL/sec
+Aspirating 6.5 uL from A2 of Cool_Reagent_Plate on Temperature Module GEN2 on 6 at 10.0 uL/sec
+Dispensing 20.0 uL into A4 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 30.0 uL/sec
+Aspirating 1.0 uL from A4 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 10.0 uL/sec
+Aspirating 10.0 uL from A4 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 10.0 uL/sec
+Dispensing 10.0 uL into A4 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 30.0 uL/sec
+Aspirating 10.0 uL from A4 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 10.0 uL/sec
+Dispensing 10.0 uL into A4 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 30.0 uL/sec
+Aspirating 15.5 uL from A4 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 10.0 uL/sec
+Dispensing 15.5 uL into A4 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 30.0 uL/sec
+Aspirating 15.5 uL from A4 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 10.0 uL/sec
+Dispensing 15.5 uL into A4 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 30.0 uL/sec
+Aspirating 15.5 uL from A4 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 10.0 uL/sec
+Dispensing 15.5 uL into A4 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 30.0 uL/sec
+Aspirating 15.5 uL from A4 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 10.0 uL/sec
+Dispensing 15.5 uL into A4 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 30.0 uL/sec
+Aspirating 15.5 uL from A4 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 10.0 uL/sec
+Dispensing 15.5 uL into A4 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 30.0 uL/sec
+Aspirating 15.5 uL from A4 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 10.0 uL/sec
+Dispensing 15.5 uL into A4 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 30.0 uL/sec
+Aspirating 15.5 uL from A4 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 10.0 uL/sec
+Dispensing 15.5 uL into A4 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 30.0 uL/sec
+Aspirating 15.5 uL from A4 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 10.0 uL/sec
+Dispensing 15.5 uL into A4 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 30.0 uL/sec
+Aspirating 15.5 uL from A4 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 10.0 uL/sec
+Dispensing 15.5 uL into A4 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 30.0 uL/sec
+Dispensing 20.0 uL into A4 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 30.0 uL/sec
+Blowing out at A4 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2
+Touching tip
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from A4 of Opentrons 96 Tip Rack 20 µL on 4
+Aspirating 1.0 uL from A2 of Cool_Reagent_Plate on Temperature Module GEN2 on 6 at 10.0 uL/sec
+Aspirating 10.0 uL from A2 of Cool_Reagent_Plate on Temperature Module GEN2 on 6 at 10.0 uL/sec
+Dispensing 10.0 uL into A2 of Cool_Reagent_Plate on Temperature Module GEN2 on 6 at 30.0 uL/sec
+Aspirating 10.0 uL from A2 of Cool_Reagent_Plate on Temperature Module GEN2 on 6 at 10.0 uL/sec
+Dispensing 10.0 uL into A2 of Cool_Reagent_Plate on Temperature Module GEN2 on 6 at 30.0 uL/sec
+Aspirating 3.5 uL from A2 of Cool_Reagent_Plate on Temperature Module GEN2 on 6 at 10.0 uL/sec
+Dispensing 3.5 uL into A2 of Cool_Reagent_Plate on Temperature Module GEN2 on 6 at 30.0 uL/sec
+Aspirating 3.5 uL from A2 of Cool_Reagent_Plate on Temperature Module GEN2 on 6 at 10.0 uL/sec
+Dispensing 3.5 uL into A2 of Cool_Reagent_Plate on Temperature Module GEN2 on 6 at 30.0 uL/sec
+Aspirating 6.5 uL from A2 of Cool_Reagent_Plate on Temperature Module GEN2 on 6 at 10.0 uL/sec
+Dispensing 20.0 uL into A5 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 30.0 uL/sec
+Aspirating 1.0 uL from A5 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 10.0 uL/sec
+Aspirating 10.0 uL from A5 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 10.0 uL/sec
+Dispensing 10.0 uL into A5 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 30.0 uL/sec
+Aspirating 10.0 uL from A5 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 10.0 uL/sec
+Dispensing 10.0 uL into A5 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 30.0 uL/sec
+Aspirating 15.5 uL from A5 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 10.0 uL/sec
+Dispensing 15.5 uL into A5 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 30.0 uL/sec
+Aspirating 15.5 uL from A5 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 10.0 uL/sec
+Dispensing 15.5 uL into A5 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 30.0 uL/sec
+Aspirating 15.5 uL from A5 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 10.0 uL/sec
+Dispensing 15.5 uL into A5 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 30.0 uL/sec
+Aspirating 15.5 uL from A5 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 10.0 uL/sec
+Dispensing 15.5 uL into A5 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 30.0 uL/sec
+Aspirating 15.5 uL from A5 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 10.0 uL/sec
+Dispensing 15.5 uL into A5 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 30.0 uL/sec
+Aspirating 15.5 uL from A5 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 10.0 uL/sec
+Dispensing 15.5 uL into A5 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 30.0 uL/sec
+Aspirating 15.5 uL from A5 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 10.0 uL/sec
+Dispensing 15.5 uL into A5 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 30.0 uL/sec
+Aspirating 15.5 uL from A5 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 10.0 uL/sec
+Dispensing 15.5 uL into A5 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 30.0 uL/sec
+Aspirating 15.5 uL from A5 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 10.0 uL/sec
+Dispensing 15.5 uL into A5 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 30.0 uL/sec
+Dispensing 20.0 uL into A5 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 30.0 uL/sec
+Blowing out at A5 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2
+Touching tip
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Pausing robot operation: Run Thermocycler off deck
+Line 414
+Picking up tip from A9 of Opentrons 96 Tip Rack 300 µL on 5
+Aspirating 31.0 uL from A4 of USA Scientific 12 Well Reservoir 22 mL on 3 at 50.0 uL/sec
+Dispensing 30.0 uL into A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 150.0 uL/sec
+Blowing out at A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1
+Touching tip
+Aspirating 31.0 uL from A4 of USA Scientific 12 Well Reservoir 22 mL on 3 at 50.0 uL/sec
+Dispensing 30.0 uL into A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 150.0 uL/sec
+Blowing out at A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1
+Touching tip
+Returning tip
+	Dropping tip into A9 of Opentrons 96 Tip Rack 300 µL on 5
+Line 423
+Picking up tip from A1 of Opentrons 96 Tip Rack 300 µL on 5
+Aspirating 5.0 uL from A1 of USA Scientific 12 Well Reservoir 22 mL on 3 at 100.0 uL/sec
+Aspirating 210.0 uL from A1 of USA Scientific 12 Well Reservoir 22 mL on 3 at 100.0 uL/sec
+Dispensing 210.0 uL into A1 of USA Scientific 12 Well Reservoir 22 mL on 3 at 100.0 uL/sec
+Aspirating 210.0 uL from A1 of USA Scientific 12 Well Reservoir 22 mL on 3 at 100.0 uL/sec
+Dispensing 210.0 uL into A1 of USA Scientific 12 Well Reservoir 22 mL on 3 at 100.0 uL/sec
+Aspirating 210.0 uL from A1 of USA Scientific 12 Well Reservoir 22 mL on 3 at 100.0 uL/sec
+Dispensing 210.0 uL into A1 of USA Scientific 12 Well Reservoir 22 mL on 3 at 100.0 uL/sec
+Aspirating 210.0 uL from A1 of USA Scientific 12 Well Reservoir 22 mL on 3 at 100.0 uL/sec
+Dispensing 210.0 uL into A1 of USA Scientific 12 Well Reservoir 22 mL on 3 at 100.0 uL/sec
+Aspirating 210.0 uL from A1 of USA Scientific 12 Well Reservoir 22 mL on 3 at 100.0 uL/sec
+Dispensing 210.0 uL into A1 of USA Scientific 12 Well Reservoir 22 mL on 3 at 100.0 uL/sec
+Aspirating 210.0 uL from A1 of USA Scientific 12 Well Reservoir 22 mL on 3 at 100.0 uL/sec
+Dispensing 210.0 uL into A1 of USA Scientific 12 Well Reservoir 22 mL on 3 at 100.0 uL/sec
+Aspirating 210.0 uL from A1 of USA Scientific 12 Well Reservoir 22 mL on 3 at 100.0 uL/sec
+Dispensing 210.0 uL into A1 of USA Scientific 12 Well Reservoir 22 mL on 3 at 100.0 uL/sec
+Aspirating 210.0 uL from A1 of USA Scientific 12 Well Reservoir 22 mL on 3 at 100.0 uL/sec
+Dispensing 210.0 uL into A1 of USA Scientific 12 Well Reservoir 22 mL on 3 at 100.0 uL/sec
+Aspirating 210.0 uL from A1 of USA Scientific 12 Well Reservoir 22 mL on 3 at 100.0 uL/sec
+Dispensing 210.0 uL into A1 of USA Scientific 12 Well Reservoir 22 mL on 3 at 100.0 uL/sec
+Aspirating 210.0 uL from A1 of USA Scientific 12 Well Reservoir 22 mL on 3 at 70.0 uL/sec
+Dispensing 210.0 uL into A1 of USA Scientific 12 Well Reservoir 22 mL on 3 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of USA Scientific 12 Well Reservoir 22 mL on 3 at 50.0 uL/sec
+Aspirating 5.0 uL from A1 of USA Scientific 12 Well Reservoir 22 mL on 3 at 70.0 uL/sec
+Aspirating 90.0 uL from A1 of USA Scientific 12 Well Reservoir 22 mL on 3 at 70.0 uL/sec
+Dispensing 90.0 uL into A1 of USA Scientific 12 Well Reservoir 22 mL on 3 at 50.0 uL/sec
+Aspirating 90.0 uL from A1 of USA Scientific 12 Well Reservoir 22 mL on 3 at 70.0 uL/sec
+Dispensing 90.0 uL into A1 of USA Scientific 12 Well Reservoir 22 mL on 3 at 50.0 uL/sec
+Aspirating 90.0 uL from A1 of USA Scientific 12 Well Reservoir 22 mL on 3 at 70.0 uL/sec
+Dispensing 90.0 uL into A1 of USA Scientific 12 Well Reservoir 22 mL on 3 at 50.0 uL/sec
+Aspirating 90.0 uL from A1 of USA Scientific 12 Well Reservoir 22 mL on 3 at 70.0 uL/sec
+Dispensing 90.0 uL into A1 of USA Scientific 12 Well Reservoir 22 mL on 3 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of USA Scientific 12 Well Reservoir 22 mL on 3 at 50.0 uL/sec
+Aspirating 50.0 uL from A1 of USA Scientific 12 Well Reservoir 22 mL on 3 at 50.0 uL/sec
+Dispensing 50.0 uL into A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 30.0 uL/sec
+Aspirating 5.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 70.0 uL/sec
+Aspirating 70.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 70.0 uL/sec
+Dispensing 70.0 uL into A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Aspirating 70.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 70.0 uL/sec
+Dispensing 70.0 uL into A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Aspirating 70.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 70.0 uL/sec
+Dispensing 70.0 uL into A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Aspirating 70.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 70.0 uL/sec
+Dispensing 70.0 uL into A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Aspirating 70.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 70.0 uL/sec
+Dispensing 70.0 uL into A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Aspirating 70.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 70.0 uL/sec
+Dispensing 70.0 uL into A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Aspirating 70.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 70.0 uL/sec
+Dispensing 70.0 uL into A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Aspirating 70.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 70.0 uL/sec
+Dispensing 70.0 uL into A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Aspirating 70.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 70.0 uL/sec
+Dispensing 70.0 uL into A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Aspirating 70.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 70.0 uL/sec
+Dispensing 70.0 uL into A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Blowing out at A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from A2 of Opentrons 96 Tip Rack 300 µL on 5
+Aspirating 5.0 uL from A1 of USA Scientific 12 Well Reservoir 22 mL on 3 at 70.0 uL/sec
+Aspirating 90.0 uL from A1 of USA Scientific 12 Well Reservoir 22 mL on 3 at 70.0 uL/sec
+Dispensing 90.0 uL into A1 of USA Scientific 12 Well Reservoir 22 mL on 3 at 50.0 uL/sec
+Aspirating 90.0 uL from A1 of USA Scientific 12 Well Reservoir 22 mL on 3 at 70.0 uL/sec
+Dispensing 90.0 uL into A1 of USA Scientific 12 Well Reservoir 22 mL on 3 at 50.0 uL/sec
+Aspirating 90.0 uL from A1 of USA Scientific 12 Well Reservoir 22 mL on 3 at 70.0 uL/sec
+Dispensing 90.0 uL into A1 of USA Scientific 12 Well Reservoir 22 mL on 3 at 50.0 uL/sec
+Aspirating 90.0 uL from A1 of USA Scientific 12 Well Reservoir 22 mL on 3 at 70.0 uL/sec
+Dispensing 90.0 uL into A1 of USA Scientific 12 Well Reservoir 22 mL on 3 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of USA Scientific 12 Well Reservoir 22 mL on 3 at 50.0 uL/sec
+Aspirating 50.0 uL from A1 of USA Scientific 12 Well Reservoir 22 mL on 3 at 50.0 uL/sec
+Dispensing 50.0 uL into A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 30.0 uL/sec
+Aspirating 5.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 70.0 uL/sec
+Aspirating 70.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 70.0 uL/sec
+Dispensing 70.0 uL into A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Aspirating 70.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 70.0 uL/sec
+Dispensing 70.0 uL into A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Aspirating 70.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 70.0 uL/sec
+Dispensing 70.0 uL into A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Aspirating 70.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 70.0 uL/sec
+Dispensing 70.0 uL into A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Aspirating 70.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 70.0 uL/sec
+Dispensing 70.0 uL into A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Aspirating 70.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 70.0 uL/sec
+Dispensing 70.0 uL into A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Aspirating 70.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 70.0 uL/sec
+Dispensing 70.0 uL into A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Aspirating 70.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 70.0 uL/sec
+Dispensing 70.0 uL into A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Aspirating 70.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 70.0 uL/sec
+Dispensing 70.0 uL into A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Aspirating 70.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 70.0 uL/sec
+Dispensing 70.0 uL into A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Blowing out at A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Delaying for 0 minutes and 30.0 seconds
+Engaging Magnetic Module
+Delaying for 0 minutes and 36.0 seconds
+Picking up tip from A3 of Opentrons 96 Tip Rack 300 µL on 5
+Aspirating 80.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Aspirating 80.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Aspirating 10.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid Waste on 11 at 150.0 uL/sec
+Blowing out at A1 of Liquid Waste on 11
+Aspirating 5.0 uL from A1 of Liquid Waste on 11 at 10.0 uL/sec
+Aspirating 80.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Dispensing 70.0 uL into A1 of Liquid Waste on 11 at 150.0 uL/sec
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from A4 of Opentrons 96 Tip Rack 300 µL on 5
+Aspirating 80.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Aspirating 80.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Aspirating 10.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid Waste on 11 at 150.0 uL/sec
+Blowing out at A1 of Liquid Waste on 11
+Aspirating 5.0 uL from A1 of Liquid Waste on 11 at 10.0 uL/sec
+Aspirating 80.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Dispensing 70.0 uL into A1 of Liquid Waste on 11 at 150.0 uL/sec
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from A5 of Opentrons 96 Tip Rack 300 µL on 5
+Air gap
+	Aspirating 10.0 uL from A5 of Opentrons 96 Tip Rack 300 µL on 5 at 75.0 uL/sec
+Aspirating 180.0 uL from A2 of USA Scientific 12 Well Reservoir 22 mL on 3 at 75.0 uL/sec
+Air gap
+	Aspirating 5.0 uL from A2 of USA Scientific 12 Well Reservoir 22 mL on 3 at 75.0 uL/sec
+Dispensing 210.0 uL into A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 70.0 uL/sec
+Air gap
+	Aspirating 10.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 75.0 uL/sec
+Aspirating 180.0 uL from A3 of USA Scientific 12 Well Reservoir 22 mL on 3 at 75.0 uL/sec
+Air gap
+	Aspirating 5.0 uL from A3 of USA Scientific 12 Well Reservoir 22 mL on 3 at 75.0 uL/sec
+Dispensing 210.0 uL into A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 70.0 uL/sec
+Aspirating 80.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Aspirating 80.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Aspirating 10.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid Waste on 11 at 150.0 uL/sec
+Blowing out at A1 of Liquid Waste on 11
+Aspirating 5.0 uL from A1 of Liquid Waste on 11 at 10.0 uL/sec
+Aspirating 80.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Dispensing 70.0 uL into A1 of Liquid Waste on 11 at 150.0 uL/sec
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from A6 of Opentrons 96 Tip Rack 300 µL on 5
+Aspirating 80.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Aspirating 80.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Aspirating 10.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid Waste on 11 at 150.0 uL/sec
+Blowing out at A1 of Liquid Waste on 11
+Aspirating 5.0 uL from A1 of Liquid Waste on 11 at 10.0 uL/sec
+Aspirating 80.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Dispensing 70.0 uL into A1 of Liquid Waste on 11 at 150.0 uL/sec
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from A7 of Opentrons 96 Tip Rack 300 µL on 5
+Air gap
+	Aspirating 10.0 uL from A7 of Opentrons 96 Tip Rack 300 µL on 5 at 50.0 uL/sec
+Aspirating 180.0 uL from A2 of USA Scientific 12 Well Reservoir 22 mL on 3 at 50.0 uL/sec
+Air gap
+	Aspirating 5.0 uL from A2 of USA Scientific 12 Well Reservoir 22 mL on 3 at 50.0 uL/sec
+Dispensing 210.0 uL into A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 90.0 uL/sec
+Air gap
+	Aspirating 10.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Aspirating 180.0 uL from A3 of USA Scientific 12 Well Reservoir 22 mL on 3 at 50.0 uL/sec
+Air gap
+	Aspirating 5.0 uL from A3 of USA Scientific 12 Well Reservoir 22 mL on 3 at 50.0 uL/sec
+Dispensing 210.0 uL into A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 90.0 uL/sec
+Aspirating 80.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Aspirating 80.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Aspirating 10.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid Waste on 11 at 150.0 uL/sec
+Blowing out at A1 of Liquid Waste on 11
+Aspirating 5.0 uL from A1 of Liquid Waste on 11 at 10.0 uL/sec
+Aspirating 80.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Dispensing 70.0 uL into A1 of Liquid Waste on 11 at 150.0 uL/sec
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from A8 of Opentrons 96 Tip Rack 300 µL on 5
+Aspirating 80.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Aspirating 80.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Aspirating 10.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid Waste on 11 at 150.0 uL/sec
+Blowing out at A1 of Liquid Waste on 11
+Aspirating 5.0 uL from A1 of Liquid Waste on 11 at 10.0 uL/sec
+Aspirating 80.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Dispensing 70.0 uL into A1 of Liquid Waste on 11 at 150.0 uL/sec
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Line 430
+Letting beads dry for 30 seconds.
+Delaying for 0 minutes and 30.0 seconds
+Disengaging Magnetic Module
+Picking up tip from A7 of Opentrons 96 Tip Rack 20 µL on 4
+Aspirating 12.5 uL from A4 of USA Scientific 12 Well Reservoir 22 mL on 3 at 50.0 uL/sec
+Dispensing 12.5 uL into A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 90.0 uL/sec
+Blowing out at A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1
+Aspirating 1.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Aspirating 10.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 10.0 uL into A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 10.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 10.0 uL into A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 11.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 11.0 uL into A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 11.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 11.0 uL into A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 11.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 11.0 uL into A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 11.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 11.0 uL into A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 11.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 11.0 uL into A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 11.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 11.0 uL into A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 11.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 11.0 uL into A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 11.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 11.0 uL into A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 11.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 11.0 uL into A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Dispensing 20.0 uL into A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 10.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 20.0 uL into A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 10.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 20.0 uL into A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Blowing out at A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1
+Touching tip
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from A8 of Opentrons 96 Tip Rack 20 µL on 4
+Aspirating 12.5 uL from A4 of USA Scientific 12 Well Reservoir 22 mL on 3 at 20.0 uL/sec
+Dispensing 12.5 uL into A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Blowing out at A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1
+Aspirating 1.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Aspirating 10.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 10.0 uL into A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 10.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 10.0 uL into A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 11.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 11.0 uL into A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 11.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 11.0 uL into A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 11.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 11.0 uL into A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 11.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 11.0 uL into A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 11.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 11.0 uL into A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 11.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 11.0 uL into A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 11.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 11.0 uL into A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 11.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 11.0 uL into A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 11.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 11.0 uL into A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Dispensing 20.0 uL into A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 10.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 20.0 uL into A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 10.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 20.0 uL into A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Blowing out at A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1
+Touching tip
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Line 436
+Incubating for 2 minutes.
+Delaying for 0 minutes and 12.0 seconds
+Engaging Magnetic Module and incubating for 6 minutes.
+Engaging Magnetic Module
+Delaying for 0 minutes and 36.0 seconds
+Picking up tip from A9 of Opentrons 96 Tip Rack 20 µL on 4
+Aspirating 10.5 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Dispensing 10.5 uL into A4 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 40.0 uL/sec
+Blowing out at A4 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2
+Touching tip
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from A10 of Opentrons 96 Tip Rack 20 µL on 4
+Aspirating 10.5 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Dispensing 10.5 uL into A5 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 40.0 uL/sec
+Blowing out at A5 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2
+Touching tip
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Disengaging Magnetic Module
+Pausing robot operation: Run Thermocycler off deck: 95c denaturation for 2 min
+Line 445
+Incubating on cold block for 2 minutes.
+Delaying for 0 minutes and 12.0 seconds
+Picking up tip from A11 of Opentrons 96 Tip Rack 20 µL on 4
+Aspirating 1.0 uL from A3 of Cool_Reagent_Plate on Temperature Module GEN2 on 6 at 10.0 uL/sec
+Aspirating 10.0 uL from A3 of Cool_Reagent_Plate on Temperature Module GEN2 on 6 at 10.0 uL/sec
+Dispensing 10.0 uL into A3 of Cool_Reagent_Plate on Temperature Module GEN2 on 6 at 30.0 uL/sec
+Aspirating 10.0 uL from A3 of Cool_Reagent_Plate on Temperature Module GEN2 on 6 at 10.0 uL/sec
+Dispensing 10.0 uL into A3 of Cool_Reagent_Plate on Temperature Module GEN2 on 6 at 30.0 uL/sec
+Aspirating 8.5 uL from A3 of Cool_Reagent_Plate on Temperature Module GEN2 on 6 at 10.0 uL/sec
+Dispensing 8.5 uL into A3 of Cool_Reagent_Plate on Temperature Module GEN2 on 6 at 30.0 uL/sec
+Aspirating 8.5 uL from A3 of Cool_Reagent_Plate on Temperature Module GEN2 on 6 at 10.0 uL/sec
+Dispensing 8.5 uL into A3 of Cool_Reagent_Plate on Temperature Module GEN2 on 6 at 30.0 uL/sec
+Aspirating 8.5 uL from A3 of Cool_Reagent_Plate on Temperature Module GEN2 on 6 at 10.0 uL/sec
+Dispensing 8.5 uL into A3 of Cool_Reagent_Plate on Temperature Module GEN2 on 6 at 30.0 uL/sec
+Aspirating 8.5 uL from A3 of Cool_Reagent_Plate on Temperature Module GEN2 on 6 at 10.0 uL/sec
+Dispensing 8.5 uL into A3 of Cool_Reagent_Plate on Temperature Module GEN2 on 6 at 30.0 uL/sec
+Blowing out at A3 of Cool_Reagent_Plate on Temperature Module GEN2 on 6
+Aspirating 1.0 uL from A3 of Cool_Reagent_Plate on Temperature Module GEN2 on 6 at 10.0 uL/sec
+Aspirating 10.0 uL from A3 of Cool_Reagent_Plate on Temperature Module GEN2 on 6 at 10.0 uL/sec
+Dispensing 10.0 uL into A3 of Cool_Reagent_Plate on Temperature Module GEN2 on 6 at 30.0 uL/sec
+Aspirating 10.0 uL from A3 of Cool_Reagent_Plate on Temperature Module GEN2 on 6 at 10.0 uL/sec
+Dispensing 10.0 uL into A3 of Cool_Reagent_Plate on Temperature Module GEN2 on 6 at 30.0 uL/sec
+Aspirating 3.5 uL from A3 of Cool_Reagent_Plate on Temperature Module GEN2 on 6 at 10.0 uL/sec
+Dispensing 3.5 uL into A3 of Cool_Reagent_Plate on Temperature Module GEN2 on 6 at 30.0 uL/sec
+Aspirating 3.5 uL from A3 of Cool_Reagent_Plate on Temperature Module GEN2 on 6 at 10.0 uL/sec
+Dispensing 3.5 uL into A3 of Cool_Reagent_Plate on Temperature Module GEN2 on 6 at 30.0 uL/sec
+Aspirating 11.0 uL from A3 of Cool_Reagent_Plate on Temperature Module GEN2 on 6 at 10.0 uL/sec
+Dispensing 20.0 uL into A4 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 30.0 uL/sec
+Aspirating 1.0 uL from A4 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 10.0 uL/sec
+Aspirating 10.0 uL from A4 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 10.0 uL/sec
+Dispensing 10.0 uL into A4 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 30.0 uL/sec
+Aspirating 10.0 uL from A4 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 10.0 uL/sec
+Dispensing 10.0 uL into A4 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 30.0 uL/sec
+Aspirating 15.5 uL from A4 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 10.0 uL/sec
+Dispensing 15.5 uL into A4 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 30.0 uL/sec
+Aspirating 15.5 uL from A4 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 10.0 uL/sec
+Dispensing 15.5 uL into A4 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 30.0 uL/sec
+Aspirating 15.5 uL from A4 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 10.0 uL/sec
+Dispensing 15.5 uL into A4 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 30.0 uL/sec
+Aspirating 15.5 uL from A4 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 10.0 uL/sec
+Dispensing 15.5 uL into A4 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 30.0 uL/sec
+Aspirating 15.5 uL from A4 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 10.0 uL/sec
+Dispensing 15.5 uL into A4 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 30.0 uL/sec
+Aspirating 15.5 uL from A4 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 10.0 uL/sec
+Dispensing 15.5 uL into A4 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 30.0 uL/sec
+Aspirating 15.5 uL from A4 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 10.0 uL/sec
+Dispensing 15.5 uL into A4 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 30.0 uL/sec
+Aspirating 15.5 uL from A4 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 10.0 uL/sec
+Dispensing 15.5 uL into A4 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 30.0 uL/sec
+Aspirating 15.5 uL from A4 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 10.0 uL/sec
+Dispensing 15.5 uL into A4 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 30.0 uL/sec
+Dispensing 20.0 uL into A4 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 30.0 uL/sec
+Blowing out at A4 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2
+Touching tip
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from A12 of Opentrons 96 Tip Rack 20 µL on 4
+Aspirating 1.0 uL from A3 of Cool_Reagent_Plate on Temperature Module GEN2 on 6 at 10.0 uL/sec
+Aspirating 10.0 uL from A3 of Cool_Reagent_Plate on Temperature Module GEN2 on 6 at 10.0 uL/sec
+Dispensing 10.0 uL into A3 of Cool_Reagent_Plate on Temperature Module GEN2 on 6 at 30.0 uL/sec
+Aspirating 10.0 uL from A3 of Cool_Reagent_Plate on Temperature Module GEN2 on 6 at 10.0 uL/sec
+Dispensing 10.0 uL into A3 of Cool_Reagent_Plate on Temperature Module GEN2 on 6 at 30.0 uL/sec
+Aspirating 3.5 uL from A3 of Cool_Reagent_Plate on Temperature Module GEN2 on 6 at 10.0 uL/sec
+Dispensing 3.5 uL into A3 of Cool_Reagent_Plate on Temperature Module GEN2 on 6 at 30.0 uL/sec
+Aspirating 3.5 uL from A3 of Cool_Reagent_Plate on Temperature Module GEN2 on 6 at 10.0 uL/sec
+Dispensing 3.5 uL into A3 of Cool_Reagent_Plate on Temperature Module GEN2 on 6 at 30.0 uL/sec
+Aspirating 11.0 uL from A3 of Cool_Reagent_Plate on Temperature Module GEN2 on 6 at 10.0 uL/sec
+Dispensing 20.0 uL into A5 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 30.0 uL/sec
+Aspirating 1.0 uL from A5 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 10.0 uL/sec
+Aspirating 10.0 uL from A5 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 10.0 uL/sec
+Dispensing 10.0 uL into A5 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 30.0 uL/sec
+Aspirating 10.0 uL from A5 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 10.0 uL/sec
+Dispensing 10.0 uL into A5 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 30.0 uL/sec
+Aspirating 15.5 uL from A5 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 10.0 uL/sec
+Dispensing 15.5 uL into A5 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 30.0 uL/sec
+Aspirating 15.5 uL from A5 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 10.0 uL/sec
+Dispensing 15.5 uL into A5 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 30.0 uL/sec
+Aspirating 15.5 uL from A5 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 10.0 uL/sec
+Dispensing 15.5 uL into A5 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 30.0 uL/sec
+Aspirating 15.5 uL from A5 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 10.0 uL/sec
+Dispensing 15.5 uL into A5 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 30.0 uL/sec
+Aspirating 15.5 uL from A5 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 10.0 uL/sec
+Dispensing 15.5 uL into A5 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 30.0 uL/sec
+Aspirating 15.5 uL from A5 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 10.0 uL/sec
+Dispensing 15.5 uL into A5 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 30.0 uL/sec
+Aspirating 15.5 uL from A5 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 10.0 uL/sec
+Dispensing 15.5 uL into A5 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 30.0 uL/sec
+Aspirating 15.5 uL from A5 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 10.0 uL/sec
+Dispensing 15.5 uL into A5 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 30.0 uL/sec
+Aspirating 15.5 uL from A5 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 10.0 uL/sec
+Dispensing 15.5 uL into A5 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 30.0 uL/sec
+Dispensing 20.0 uL into A5 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 30.0 uL/sec
+Blowing out at A5 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2
+Touching tip
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Pausing robot operation: Run Thermocycler off deck
+Line 453
+Return plate to cold block
+Picking up tip from A1 of Opentrons 96 Tip Rack 20 µL on 4
+Aspirating 1.0 uL from A4 of Cool_Reagent_Plate on Temperature Module GEN2 on 6 at 10.0 uL/sec
+Aspirating 10.0 uL from A4 of Cool_Reagent_Plate on Temperature Module GEN2 on 6 at 10.0 uL/sec
+Dispensing 10.0 uL into A4 of Cool_Reagent_Plate on Temperature Module GEN2 on 6 at 30.0 uL/sec
+Aspirating 10.0 uL from A4 of Cool_Reagent_Plate on Temperature Module GEN2 on 6 at 10.0 uL/sec
+Dispensing 10.0 uL into A4 of Cool_Reagent_Plate on Temperature Module GEN2 on 6 at 30.0 uL/sec
+Aspirating 8.5 uL from A4 of Cool_Reagent_Plate on Temperature Module GEN2 on 6 at 10.0 uL/sec
+Dispensing 8.5 uL into A4 of Cool_Reagent_Plate on Temperature Module GEN2 on 6 at 30.0 uL/sec
+Aspirating 8.5 uL from A4 of Cool_Reagent_Plate on Temperature Module GEN2 on 6 at 10.0 uL/sec
+Dispensing 8.5 uL into A4 of Cool_Reagent_Plate on Temperature Module GEN2 on 6 at 30.0 uL/sec
+Aspirating 8.5 uL from A4 of Cool_Reagent_Plate on Temperature Module GEN2 on 6 at 10.0 uL/sec
+Dispensing 8.5 uL into A4 of Cool_Reagent_Plate on Temperature Module GEN2 on 6 at 30.0 uL/sec
+Aspirating 8.5 uL from A4 of Cool_Reagent_Plate on Temperature Module GEN2 on 6 at 10.0 uL/sec
+Dispensing 8.5 uL into A4 of Cool_Reagent_Plate on Temperature Module GEN2 on 6 at 30.0 uL/sec
+Blowing out at A4 of Cool_Reagent_Plate on Temperature Module GEN2 on 6
+Aspirating 1.0 uL from A4 of Cool_Reagent_Plate on Temperature Module GEN2 on 6 at 10.0 uL/sec
+Aspirating 10.0 uL from A4 of Cool_Reagent_Plate on Temperature Module GEN2 on 6 at 10.0 uL/sec
+Dispensing 10.0 uL into A4 of Cool_Reagent_Plate on Temperature Module GEN2 on 6 at 30.0 uL/sec
+Aspirating 10.0 uL from A4 of Cool_Reagent_Plate on Temperature Module GEN2 on 6 at 10.0 uL/sec
+Dispensing 10.0 uL into A4 of Cool_Reagent_Plate on Temperature Module GEN2 on 6 at 30.0 uL/sec
+Aspirating 3.5 uL from A4 of Cool_Reagent_Plate on Temperature Module GEN2 on 6 at 10.0 uL/sec
+Dispensing 3.5 uL into A4 of Cool_Reagent_Plate on Temperature Module GEN2 on 6 at 30.0 uL/sec
+Aspirating 3.5 uL from A4 of Cool_Reagent_Plate on Temperature Module GEN2 on 6 at 10.0 uL/sec
+Dispensing 3.5 uL into A4 of Cool_Reagent_Plate on Temperature Module GEN2 on 6 at 30.0 uL/sec
+Aspirating 18.0 uL from A4 of Cool_Reagent_Plate on Temperature Module GEN2 on 6 at 10.0 uL/sec
+Aspirating 1.0 uL from A4 of Cool_Reagent_Plate on Temperature Module GEN2 on 6 at 10.0 uL/sec
+Dispensing 20.0 uL into A4 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 30.0 uL/sec
+Touching tip
+Aspirating 5.5 uL from A4 of Cool_Reagent_Plate on Temperature Module GEN2 on 6 at 10.0 uL/sec
+Dispensing 20.0 uL into A4 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 30.0 uL/sec
+Aspirating 1.0 uL from A4 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 10.0 uL/sec
+Aspirating 10.0 uL from A4 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 10.0 uL/sec
+Dispensing 10.0 uL into A4 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 30.0 uL/sec
+Aspirating 10.0 uL from A4 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 10.0 uL/sec
+Dispensing 10.0 uL into A4 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 30.0 uL/sec
+Aspirating 15.5 uL from A4 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 10.0 uL/sec
+Dispensing 15.5 uL into A4 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 30.0 uL/sec
+Aspirating 15.5 uL from A4 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 10.0 uL/sec
+Dispensing 15.5 uL into A4 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 30.0 uL/sec
+Aspirating 15.5 uL from A4 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 10.0 uL/sec
+Dispensing 15.5 uL into A4 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 30.0 uL/sec
+Aspirating 15.5 uL from A4 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 10.0 uL/sec
+Dispensing 15.5 uL into A4 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 30.0 uL/sec
+Aspirating 15.5 uL from A4 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 10.0 uL/sec
+Dispensing 15.5 uL into A4 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 30.0 uL/sec
+Aspirating 15.5 uL from A4 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 10.0 uL/sec
+Dispensing 15.5 uL into A4 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 30.0 uL/sec
+Aspirating 15.5 uL from A4 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 10.0 uL/sec
+Dispensing 15.5 uL into A4 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 30.0 uL/sec
+Aspirating 15.5 uL from A4 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 10.0 uL/sec
+Dispensing 15.5 uL into A4 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 30.0 uL/sec
+Aspirating 15.5 uL from A4 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 10.0 uL/sec
+Dispensing 15.5 uL into A4 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 30.0 uL/sec
+Dispensing 20.0 uL into A4 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 30.0 uL/sec
+Blowing out at A4 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2
+Touching tip
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from A2 of Opentrons 96 Tip Rack 20 µL on 4
+Aspirating 1.0 uL from A4 of Cool_Reagent_Plate on Temperature Module GEN2 on 6 at 10.0 uL/sec
+Aspirating 10.0 uL from A4 of Cool_Reagent_Plate on Temperature Module GEN2 on 6 at 10.0 uL/sec
+Dispensing 10.0 uL into A4 of Cool_Reagent_Plate on Temperature Module GEN2 on 6 at 30.0 uL/sec
+Aspirating 10.0 uL from A4 of Cool_Reagent_Plate on Temperature Module GEN2 on 6 at 10.0 uL/sec
+Dispensing 10.0 uL into A4 of Cool_Reagent_Plate on Temperature Module GEN2 on 6 at 30.0 uL/sec
+Aspirating 3.5 uL from A4 of Cool_Reagent_Plate on Temperature Module GEN2 on 6 at 10.0 uL/sec
+Dispensing 3.5 uL into A4 of Cool_Reagent_Plate on Temperature Module GEN2 on 6 at 30.0 uL/sec
+Aspirating 3.5 uL from A4 of Cool_Reagent_Plate on Temperature Module GEN2 on 6 at 10.0 uL/sec
+Dispensing 3.5 uL into A4 of Cool_Reagent_Plate on Temperature Module GEN2 on 6 at 30.0 uL/sec
+Aspirating 18.0 uL from A4 of Cool_Reagent_Plate on Temperature Module GEN2 on 6 at 10.0 uL/sec
+Aspirating 1.0 uL from A4 of Cool_Reagent_Plate on Temperature Module GEN2 on 6 at 10.0 uL/sec
+Dispensing 20.0 uL into A5 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 30.0 uL/sec
+Touching tip
+Aspirating 5.5 uL from A4 of Cool_Reagent_Plate on Temperature Module GEN2 on 6 at 10.0 uL/sec
+Dispensing 20.0 uL into A5 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 30.0 uL/sec
+Aspirating 1.0 uL from A5 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 10.0 uL/sec
+Aspirating 10.0 uL from A5 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 10.0 uL/sec
+Dispensing 10.0 uL into A5 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 30.0 uL/sec
+Aspirating 10.0 uL from A5 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 10.0 uL/sec
+Dispensing 10.0 uL into A5 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 30.0 uL/sec
+Aspirating 15.5 uL from A5 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 10.0 uL/sec
+Dispensing 15.5 uL into A5 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 30.0 uL/sec
+Aspirating 15.5 uL from A5 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 10.0 uL/sec
+Dispensing 15.5 uL into A5 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 30.0 uL/sec
+Aspirating 15.5 uL from A5 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 10.0 uL/sec
+Dispensing 15.5 uL into A5 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 30.0 uL/sec
+Aspirating 15.5 uL from A5 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 10.0 uL/sec
+Dispensing 15.5 uL into A5 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 30.0 uL/sec
+Aspirating 15.5 uL from A5 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 10.0 uL/sec
+Dispensing 15.5 uL into A5 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 30.0 uL/sec
+Aspirating 15.5 uL from A5 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 10.0 uL/sec
+Dispensing 15.5 uL into A5 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 30.0 uL/sec
+Aspirating 15.5 uL from A5 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 10.0 uL/sec
+Dispensing 15.5 uL into A5 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 30.0 uL/sec
+Aspirating 15.5 uL from A5 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 10.0 uL/sec
+Dispensing 15.5 uL into A5 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 30.0 uL/sec
+Aspirating 15.5 uL from A5 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 10.0 uL/sec
+Dispensing 15.5 uL into A5 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 30.0 uL/sec
+Dispensing 20.0 uL into A5 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 30.0 uL/sec
+Blowing out at A5 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2
+Touching tip
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Pausing robot operation: Run Thermocycler off deck
+Line 458
+Return plate to magnetic module
+Picking up tip from A9 of Opentrons 96 Tip Rack 300 µL on 5
+Aspirating 5.0 uL from A1 of USA Scientific 12 Well Reservoir 22 mL on 3 at 100.0 uL/sec
+Aspirating 210.0 uL from A1 of USA Scientific 12 Well Reservoir 22 mL on 3 at 100.0 uL/sec
+Dispensing 210.0 uL into A1 of USA Scientific 12 Well Reservoir 22 mL on 3 at 100.0 uL/sec
+Aspirating 210.0 uL from A1 of USA Scientific 12 Well Reservoir 22 mL on 3 at 100.0 uL/sec
+Dispensing 210.0 uL into A1 of USA Scientific 12 Well Reservoir 22 mL on 3 at 100.0 uL/sec
+Aspirating 210.0 uL from A1 of USA Scientific 12 Well Reservoir 22 mL on 3 at 100.0 uL/sec
+Dispensing 210.0 uL into A1 of USA Scientific 12 Well Reservoir 22 mL on 3 at 100.0 uL/sec
+Aspirating 210.0 uL from A1 of USA Scientific 12 Well Reservoir 22 mL on 3 at 100.0 uL/sec
+Dispensing 210.0 uL into A1 of USA Scientific 12 Well Reservoir 22 mL on 3 at 100.0 uL/sec
+Aspirating 210.0 uL from A1 of USA Scientific 12 Well Reservoir 22 mL on 3 at 100.0 uL/sec
+Dispensing 210.0 uL into A1 of USA Scientific 12 Well Reservoir 22 mL on 3 at 100.0 uL/sec
+Aspirating 210.0 uL from A1 of USA Scientific 12 Well Reservoir 22 mL on 3 at 100.0 uL/sec
+Dispensing 210.0 uL into A1 of USA Scientific 12 Well Reservoir 22 mL on 3 at 100.0 uL/sec
+Aspirating 210.0 uL from A1 of USA Scientific 12 Well Reservoir 22 mL on 3 at 100.0 uL/sec
+Dispensing 210.0 uL into A1 of USA Scientific 12 Well Reservoir 22 mL on 3 at 100.0 uL/sec
+Aspirating 210.0 uL from A1 of USA Scientific 12 Well Reservoir 22 mL on 3 at 100.0 uL/sec
+Dispensing 210.0 uL into A1 of USA Scientific 12 Well Reservoir 22 mL on 3 at 100.0 uL/sec
+Aspirating 210.0 uL from A1 of USA Scientific 12 Well Reservoir 22 mL on 3 at 100.0 uL/sec
+Dispensing 210.0 uL into A1 of USA Scientific 12 Well Reservoir 22 mL on 3 at 100.0 uL/sec
+Aspirating 210.0 uL from A1 of USA Scientific 12 Well Reservoir 22 mL on 3 at 70.0 uL/sec
+Dispensing 210.0 uL into A1 of USA Scientific 12 Well Reservoir 22 mL on 3 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of USA Scientific 12 Well Reservoir 22 mL on 3 at 50.0 uL/sec
+Aspirating 5.0 uL from A1 of USA Scientific 12 Well Reservoir 22 mL on 3 at 70.0 uL/sec
+Aspirating 90.0 uL from A1 of USA Scientific 12 Well Reservoir 22 mL on 3 at 70.0 uL/sec
+Dispensing 90.0 uL into A1 of USA Scientific 12 Well Reservoir 22 mL on 3 at 50.0 uL/sec
+Aspirating 90.0 uL from A1 of USA Scientific 12 Well Reservoir 22 mL on 3 at 70.0 uL/sec
+Dispensing 90.0 uL into A1 of USA Scientific 12 Well Reservoir 22 mL on 3 at 50.0 uL/sec
+Aspirating 90.0 uL from A1 of USA Scientific 12 Well Reservoir 22 mL on 3 at 70.0 uL/sec
+Dispensing 90.0 uL into A1 of USA Scientific 12 Well Reservoir 22 mL on 3 at 50.0 uL/sec
+Aspirating 90.0 uL from A1 of USA Scientific 12 Well Reservoir 22 mL on 3 at 70.0 uL/sec
+Dispensing 90.0 uL into A1 of USA Scientific 12 Well Reservoir 22 mL on 3 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of USA Scientific 12 Well Reservoir 22 mL on 3 at 50.0 uL/sec
+Aspirating 52.2 uL from A1 of USA Scientific 12 Well Reservoir 22 mL on 3 at 50.0 uL/sec
+Dispensing 52.2 uL into A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 30.0 uL/sec
+Aspirating 5.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 70.0 uL/sec
+Aspirating 70.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 70.0 uL/sec
+Dispensing 70.0 uL into A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Aspirating 70.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 70.0 uL/sec
+Dispensing 70.0 uL into A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Aspirating 70.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 70.0 uL/sec
+Dispensing 70.0 uL into A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Aspirating 70.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 70.0 uL/sec
+Dispensing 70.0 uL into A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Aspirating 70.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 70.0 uL/sec
+Dispensing 70.0 uL into A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Aspirating 70.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 70.0 uL/sec
+Dispensing 70.0 uL into A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Aspirating 70.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 70.0 uL/sec
+Dispensing 70.0 uL into A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Aspirating 70.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 70.0 uL/sec
+Dispensing 70.0 uL into A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Aspirating 70.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 70.0 uL/sec
+Dispensing 70.0 uL into A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Aspirating 70.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 70.0 uL/sec
+Dispensing 70.0 uL into A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Blowing out at A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from A10 of Opentrons 96 Tip Rack 300 µL on 5
+Aspirating 5.0 uL from A1 of USA Scientific 12 Well Reservoir 22 mL on 3 at 70.0 uL/sec
+Aspirating 90.0 uL from A1 of USA Scientific 12 Well Reservoir 22 mL on 3 at 70.0 uL/sec
+Dispensing 90.0 uL into A1 of USA Scientific 12 Well Reservoir 22 mL on 3 at 50.0 uL/sec
+Aspirating 90.0 uL from A1 of USA Scientific 12 Well Reservoir 22 mL on 3 at 70.0 uL/sec
+Dispensing 90.0 uL into A1 of USA Scientific 12 Well Reservoir 22 mL on 3 at 50.0 uL/sec
+Aspirating 90.0 uL from A1 of USA Scientific 12 Well Reservoir 22 mL on 3 at 70.0 uL/sec
+Dispensing 90.0 uL into A1 of USA Scientific 12 Well Reservoir 22 mL on 3 at 50.0 uL/sec
+Aspirating 90.0 uL from A1 of USA Scientific 12 Well Reservoir 22 mL on 3 at 70.0 uL/sec
+Dispensing 90.0 uL into A1 of USA Scientific 12 Well Reservoir 22 mL on 3 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of USA Scientific 12 Well Reservoir 22 mL on 3 at 50.0 uL/sec
+Aspirating 52.2 uL from A1 of USA Scientific 12 Well Reservoir 22 mL on 3 at 50.0 uL/sec
+Dispensing 52.2 uL into A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 30.0 uL/sec
+Aspirating 5.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 70.0 uL/sec
+Aspirating 70.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 70.0 uL/sec
+Dispensing 70.0 uL into A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Aspirating 70.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 70.0 uL/sec
+Dispensing 70.0 uL into A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Aspirating 70.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 70.0 uL/sec
+Dispensing 70.0 uL into A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Aspirating 70.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 70.0 uL/sec
+Dispensing 70.0 uL into A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Aspirating 70.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 70.0 uL/sec
+Dispensing 70.0 uL into A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Aspirating 70.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 70.0 uL/sec
+Dispensing 70.0 uL into A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Aspirating 70.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 70.0 uL/sec
+Dispensing 70.0 uL into A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Aspirating 70.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 70.0 uL/sec
+Dispensing 70.0 uL into A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Aspirating 70.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 70.0 uL/sec
+Dispensing 70.0 uL into A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Aspirating 70.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 70.0 uL/sec
+Dispensing 70.0 uL into A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Blowing out at A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Delaying for 0 minutes and 30.0 seconds
+Engaging Magnetic Module
+Delaying for 0 minutes and 36.0 seconds
+Picking up tip from A11 of Opentrons 96 Tip Rack 300 µL on 5
+Aspirating 80.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Aspirating 80.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Aspirating 10.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid Waste on 11 at 150.0 uL/sec
+Blowing out at A1 of Liquid Waste on 11
+Aspirating 5.0 uL from A1 of Liquid Waste on 11 at 10.0 uL/sec
+Aspirating 80.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Dispensing 70.0 uL into A1 of Liquid Waste on 11 at 150.0 uL/sec
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from A1 of Opentrons 96 Tip Rack 300 µL on 8
+Aspirating 80.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Aspirating 80.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Aspirating 10.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid Waste on 11 at 150.0 uL/sec
+Blowing out at A1 of Liquid Waste on 11
+Aspirating 5.0 uL from A1 of Liquid Waste on 11 at 10.0 uL/sec
+Aspirating 80.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Dispensing 70.0 uL into A1 of Liquid Waste on 11 at 150.0 uL/sec
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from A2 of Opentrons 96 Tip Rack 300 µL on 8
+Air gap
+	Aspirating 10.0 uL from A2 of Opentrons 96 Tip Rack 300 µL on 8 at 75.0 uL/sec
+Aspirating 180.0 uL from A2 of USA Scientific 12 Well Reservoir 22 mL on 3 at 75.0 uL/sec
+Air gap
+	Aspirating 5.0 uL from A2 of USA Scientific 12 Well Reservoir 22 mL on 3 at 75.0 uL/sec
+Dispensing 210.0 uL into A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 70.0 uL/sec
+Air gap
+	Aspirating 10.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 75.0 uL/sec
+Aspirating 180.0 uL from A3 of USA Scientific 12 Well Reservoir 22 mL on 3 at 75.0 uL/sec
+Air gap
+	Aspirating 5.0 uL from A3 of USA Scientific 12 Well Reservoir 22 mL on 3 at 75.0 uL/sec
+Dispensing 210.0 uL into A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 70.0 uL/sec
+Aspirating 80.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Aspirating 80.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Aspirating 10.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid Waste on 11 at 150.0 uL/sec
+Blowing out at A1 of Liquid Waste on 11
+Aspirating 5.0 uL from A1 of Liquid Waste on 11 at 10.0 uL/sec
+Aspirating 80.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Dispensing 70.0 uL into A1 of Liquid Waste on 11 at 150.0 uL/sec
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from A3 of Opentrons 96 Tip Rack 300 µL on 8
+Aspirating 80.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Aspirating 80.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Aspirating 10.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid Waste on 11 at 150.0 uL/sec
+Blowing out at A1 of Liquid Waste on 11
+Aspirating 5.0 uL from A1 of Liquid Waste on 11 at 10.0 uL/sec
+Aspirating 80.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Dispensing 70.0 uL into A1 of Liquid Waste on 11 at 150.0 uL/sec
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from A4 of Opentrons 96 Tip Rack 300 µL on 8
+Air gap
+	Aspirating 10.0 uL from A4 of Opentrons 96 Tip Rack 300 µL on 8 at 50.0 uL/sec
+Aspirating 180.0 uL from A2 of USA Scientific 12 Well Reservoir 22 mL on 3 at 50.0 uL/sec
+Air gap
+	Aspirating 5.0 uL from A2 of USA Scientific 12 Well Reservoir 22 mL on 3 at 50.0 uL/sec
+Dispensing 210.0 uL into A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 90.0 uL/sec
+Air gap
+	Aspirating 10.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Aspirating 180.0 uL from A3 of USA Scientific 12 Well Reservoir 22 mL on 3 at 50.0 uL/sec
+Air gap
+	Aspirating 5.0 uL from A3 of USA Scientific 12 Well Reservoir 22 mL on 3 at 50.0 uL/sec
+Dispensing 210.0 uL into A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 90.0 uL/sec
+Aspirating 80.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Aspirating 80.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Aspirating 10.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid Waste on 11 at 150.0 uL/sec
+Blowing out at A1 of Liquid Waste on 11
+Aspirating 5.0 uL from A1 of Liquid Waste on 11 at 10.0 uL/sec
+Aspirating 80.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Dispensing 70.0 uL into A1 of Liquid Waste on 11 at 150.0 uL/sec
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from A5 of Opentrons 96 Tip Rack 300 µL on 8
+Aspirating 80.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Aspirating 80.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Aspirating 10.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid Waste on 11 at 150.0 uL/sec
+Blowing out at A1 of Liquid Waste on 11
+Aspirating 5.0 uL from A1 of Liquid Waste on 11 at 10.0 uL/sec
+Aspirating 80.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Dispensing 70.0 uL into A1 of Liquid Waste on 11 at 150.0 uL/sec
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Letting beads dry for 30 seconds.
+Delaying for 0 minutes and 30.0 seconds
+Disengaging Magnetic Module
+Picking up tip from A6 of Opentrons 96 Tip Rack 300 µL on 8
+Aspirating 52.5 uL from A4 of USA Scientific 12 Well Reservoir 22 mL on 3 at 50.0 uL/sec
+Dispensing 52.5 uL into A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 90.0 uL/sec
+Blowing out at A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1
+Aspirating 1.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Aspirating 10.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 10.0 uL into A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 10.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 10.0 uL into A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 51.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 51.0 uL into A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 51.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 51.0 uL into A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 51.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 51.0 uL into A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 51.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 51.0 uL into A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 51.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 51.0 uL into A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 51.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 51.0 uL into A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 51.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 51.0 uL into A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 51.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 51.0 uL into A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 51.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 51.0 uL into A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Dispensing 20.0 uL into A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 10.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 20.0 uL into A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 10.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 20.0 uL into A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Blowing out at A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1
+Touching tip
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from A7 of Opentrons 96 Tip Rack 300 µL on 8
+Aspirating 52.5 uL from A4 of USA Scientific 12 Well Reservoir 22 mL on 3 at 20.0 uL/sec
+Dispensing 52.5 uL into A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Blowing out at A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1
+Aspirating 1.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Aspirating 10.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 10.0 uL into A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 10.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 10.0 uL into A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 51.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 51.0 uL into A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 51.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 51.0 uL into A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 51.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 51.0 uL into A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 51.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 51.0 uL into A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 51.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 51.0 uL into A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 51.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 51.0 uL into A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 51.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 51.0 uL into A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 51.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 51.0 uL into A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 51.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 51.0 uL into A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Dispensing 20.0 uL into A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 10.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 20.0 uL into A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 10.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 20.0 uL into A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Blowing out at A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1
+Touching tip
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Incubating for 2 minutes.
+Delaying for 0 minutes and 12.0 seconds
+Line 477
+Engaging Magnetic Module and incubating for 6 minutes.
+Engaging Magnetic Module
+Delaying for 0 minutes and 36.0 seconds
+Picking up tip from A8 of Opentrons 96 Tip Rack 300 µL on 8
+Aspirating 50.5 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Dispensing 50.5 uL into A4 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 40.0 uL/sec
+Blowing out at A4 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2
+Touching tip
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from A9 of Opentrons 96 Tip Rack 300 µL on 8
+Aspirating 50.5 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Dispensing 50.5 uL into A5 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 40.0 uL/sec
+Blowing out at A5 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2
+Touching tip
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Disengaging Magnetic Module
+Pausing robot operation: Place cold plate on magnetic module
+Line 484
+Picking up tip from A10 of Opentrons 96 Tip Rack 300 µL on 8
+Aspirating 5.0 uL from A1 of USA Scientific 12 Well Reservoir 22 mL on 3 at 100.0 uL/sec
+Aspirating 210.0 uL from A1 of USA Scientific 12 Well Reservoir 22 mL on 3 at 100.0 uL/sec
+Dispensing 210.0 uL into A1 of USA Scientific 12 Well Reservoir 22 mL on 3 at 100.0 uL/sec
+Aspirating 210.0 uL from A1 of USA Scientific 12 Well Reservoir 22 mL on 3 at 100.0 uL/sec
+Dispensing 210.0 uL into A1 of USA Scientific 12 Well Reservoir 22 mL on 3 at 100.0 uL/sec
+Aspirating 210.0 uL from A1 of USA Scientific 12 Well Reservoir 22 mL on 3 at 100.0 uL/sec
+Dispensing 210.0 uL into A1 of USA Scientific 12 Well Reservoir 22 mL on 3 at 100.0 uL/sec
+Aspirating 210.0 uL from A1 of USA Scientific 12 Well Reservoir 22 mL on 3 at 100.0 uL/sec
+Dispensing 210.0 uL into A1 of USA Scientific 12 Well Reservoir 22 mL on 3 at 100.0 uL/sec
+Aspirating 210.0 uL from A1 of USA Scientific 12 Well Reservoir 22 mL on 3 at 100.0 uL/sec
+Dispensing 210.0 uL into A1 of USA Scientific 12 Well Reservoir 22 mL on 3 at 100.0 uL/sec
+Aspirating 210.0 uL from A1 of USA Scientific 12 Well Reservoir 22 mL on 3 at 100.0 uL/sec
+Dispensing 210.0 uL into A1 of USA Scientific 12 Well Reservoir 22 mL on 3 at 100.0 uL/sec
+Aspirating 210.0 uL from A1 of USA Scientific 12 Well Reservoir 22 mL on 3 at 100.0 uL/sec
+Dispensing 210.0 uL into A1 of USA Scientific 12 Well Reservoir 22 mL on 3 at 100.0 uL/sec
+Aspirating 210.0 uL from A1 of USA Scientific 12 Well Reservoir 22 mL on 3 at 100.0 uL/sec
+Dispensing 210.0 uL into A1 of USA Scientific 12 Well Reservoir 22 mL on 3 at 100.0 uL/sec
+Aspirating 210.0 uL from A1 of USA Scientific 12 Well Reservoir 22 mL on 3 at 100.0 uL/sec
+Dispensing 210.0 uL into A1 of USA Scientific 12 Well Reservoir 22 mL on 3 at 100.0 uL/sec
+Aspirating 210.0 uL from A1 of USA Scientific 12 Well Reservoir 22 mL on 3 at 70.0 uL/sec
+Dispensing 210.0 uL into A1 of USA Scientific 12 Well Reservoir 22 mL on 3 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of USA Scientific 12 Well Reservoir 22 mL on 3 at 50.0 uL/sec
+Aspirating 5.0 uL from A1 of USA Scientific 12 Well Reservoir 22 mL on 3 at 70.0 uL/sec
+Aspirating 90.0 uL from A1 of USA Scientific 12 Well Reservoir 22 mL on 3 at 70.0 uL/sec
+Dispensing 90.0 uL into A1 of USA Scientific 12 Well Reservoir 22 mL on 3 at 50.0 uL/sec
+Aspirating 90.0 uL from A1 of USA Scientific 12 Well Reservoir 22 mL on 3 at 70.0 uL/sec
+Dispensing 90.0 uL into A1 of USA Scientific 12 Well Reservoir 22 mL on 3 at 50.0 uL/sec
+Aspirating 90.0 uL from A1 of USA Scientific 12 Well Reservoir 22 mL on 3 at 70.0 uL/sec
+Dispensing 90.0 uL into A1 of USA Scientific 12 Well Reservoir 22 mL on 3 at 50.0 uL/sec
+Aspirating 90.0 uL from A1 of USA Scientific 12 Well Reservoir 22 mL on 3 at 70.0 uL/sec
+Dispensing 90.0 uL into A1 of USA Scientific 12 Well Reservoir 22 mL on 3 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of USA Scientific 12 Well Reservoir 22 mL on 3 at 50.0 uL/sec
+Aspirating 60.0 uL from A1 of USA Scientific 12 Well Reservoir 22 mL on 3 at 50.0 uL/sec
+Dispensing 60.0 uL into A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 30.0 uL/sec
+Aspirating 5.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 70.0 uL/sec
+Aspirating 70.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 70.0 uL/sec
+Dispensing 70.0 uL into A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Aspirating 70.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 70.0 uL/sec
+Dispensing 70.0 uL into A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Aspirating 70.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 70.0 uL/sec
+Dispensing 70.0 uL into A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Aspirating 70.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 70.0 uL/sec
+Dispensing 70.0 uL into A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Aspirating 70.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 70.0 uL/sec
+Dispensing 70.0 uL into A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Aspirating 70.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 70.0 uL/sec
+Dispensing 70.0 uL into A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Aspirating 70.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 70.0 uL/sec
+Dispensing 70.0 uL into A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Aspirating 70.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 70.0 uL/sec
+Dispensing 70.0 uL into A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Aspirating 70.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 70.0 uL/sec
+Dispensing 70.0 uL into A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Aspirating 70.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 70.0 uL/sec
+Dispensing 70.0 uL into A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Blowing out at A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from A11 of Opentrons 96 Tip Rack 300 µL on 8
+Aspirating 5.0 uL from A1 of USA Scientific 12 Well Reservoir 22 mL on 3 at 70.0 uL/sec
+Aspirating 90.0 uL from A1 of USA Scientific 12 Well Reservoir 22 mL on 3 at 70.0 uL/sec
+Dispensing 90.0 uL into A1 of USA Scientific 12 Well Reservoir 22 mL on 3 at 50.0 uL/sec
+Aspirating 90.0 uL from A1 of USA Scientific 12 Well Reservoir 22 mL on 3 at 70.0 uL/sec
+Dispensing 90.0 uL into A1 of USA Scientific 12 Well Reservoir 22 mL on 3 at 50.0 uL/sec
+Aspirating 90.0 uL from A1 of USA Scientific 12 Well Reservoir 22 mL on 3 at 70.0 uL/sec
+Dispensing 90.0 uL into A1 of USA Scientific 12 Well Reservoir 22 mL on 3 at 50.0 uL/sec
+Aspirating 90.0 uL from A1 of USA Scientific 12 Well Reservoir 22 mL on 3 at 70.0 uL/sec
+Dispensing 90.0 uL into A1 of USA Scientific 12 Well Reservoir 22 mL on 3 at 50.0 uL/sec
+Dispensing 300.0 uL into A1 of USA Scientific 12 Well Reservoir 22 mL on 3 at 50.0 uL/sec
+Aspirating 60.0 uL from A1 of USA Scientific 12 Well Reservoir 22 mL on 3 at 50.0 uL/sec
+Dispensing 60.0 uL into A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 30.0 uL/sec
+Aspirating 5.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 70.0 uL/sec
+Aspirating 70.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 70.0 uL/sec
+Dispensing 70.0 uL into A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Aspirating 70.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 70.0 uL/sec
+Dispensing 70.0 uL into A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Aspirating 70.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 70.0 uL/sec
+Dispensing 70.0 uL into A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Aspirating 70.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 70.0 uL/sec
+Dispensing 70.0 uL into A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Aspirating 70.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 70.0 uL/sec
+Dispensing 70.0 uL into A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Aspirating 70.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 70.0 uL/sec
+Dispensing 70.0 uL into A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Aspirating 70.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 70.0 uL/sec
+Dispensing 70.0 uL into A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Aspirating 70.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 70.0 uL/sec
+Dispensing 70.0 uL into A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Aspirating 70.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 70.0 uL/sec
+Dispensing 70.0 uL into A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Aspirating 70.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 70.0 uL/sec
+Dispensing 70.0 uL into A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Dispensing 300.0 uL into A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Blowing out at A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Delaying for 0 minutes and 30.0 seconds
+Line 490
+Engaging Magnetic Module
+Delaying for 0 minutes and 36.0 seconds
+Picking up tip from A1 of Opentrons 96 Tip Rack 300 µL on 9
+Aspirating 80.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Aspirating 80.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Aspirating 10.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid Waste on 11 at 150.0 uL/sec
+Blowing out at A1 of Liquid Waste on 11
+Aspirating 5.0 uL from A1 of Liquid Waste on 11 at 10.0 uL/sec
+Aspirating 80.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Dispensing 70.0 uL into A1 of Liquid Waste on 11 at 150.0 uL/sec
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from A2 of Opentrons 96 Tip Rack 300 µL on 9
+Aspirating 80.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Aspirating 80.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Aspirating 10.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid Waste on 11 at 150.0 uL/sec
+Blowing out at A1 of Liquid Waste on 11
+Aspirating 5.0 uL from A1 of Liquid Waste on 11 at 10.0 uL/sec
+Aspirating 80.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Dispensing 70.0 uL into A1 of Liquid Waste on 11 at 150.0 uL/sec
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from A3 of Opentrons 96 Tip Rack 300 µL on 9
+Air gap
+	Aspirating 10.0 uL from A3 of Opentrons 96 Tip Rack 300 µL on 9 at 75.0 uL/sec
+Aspirating 180.0 uL from A2 of USA Scientific 12 Well Reservoir 22 mL on 3 at 75.0 uL/sec
+Air gap
+	Aspirating 5.0 uL from A2 of USA Scientific 12 Well Reservoir 22 mL on 3 at 75.0 uL/sec
+Dispensing 210.0 uL into A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 70.0 uL/sec
+Air gap
+	Aspirating 10.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 75.0 uL/sec
+Aspirating 180.0 uL from A3 of USA Scientific 12 Well Reservoir 22 mL on 3 at 75.0 uL/sec
+Air gap
+	Aspirating 5.0 uL from A3 of USA Scientific 12 Well Reservoir 22 mL on 3 at 75.0 uL/sec
+Dispensing 210.0 uL into A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 70.0 uL/sec
+Aspirating 80.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Aspirating 80.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Aspirating 10.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid Waste on 11 at 150.0 uL/sec
+Blowing out at A1 of Liquid Waste on 11
+Aspirating 5.0 uL from A1 of Liquid Waste on 11 at 10.0 uL/sec
+Aspirating 80.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Dispensing 70.0 uL into A1 of Liquid Waste on 11 at 150.0 uL/sec
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from A4 of Opentrons 96 Tip Rack 300 µL on 9
+Aspirating 80.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Aspirating 80.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Aspirating 10.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid Waste on 11 at 150.0 uL/sec
+Blowing out at A1 of Liquid Waste on 11
+Aspirating 5.0 uL from A1 of Liquid Waste on 11 at 10.0 uL/sec
+Aspirating 80.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Dispensing 70.0 uL into A1 of Liquid Waste on 11 at 150.0 uL/sec
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from A5 of Opentrons 96 Tip Rack 300 µL on 9
+Air gap
+	Aspirating 10.0 uL from A5 of Opentrons 96 Tip Rack 300 µL on 9 at 50.0 uL/sec
+Aspirating 180.0 uL from A2 of USA Scientific 12 Well Reservoir 22 mL on 3 at 50.0 uL/sec
+Air gap
+	Aspirating 5.0 uL from A2 of USA Scientific 12 Well Reservoir 22 mL on 3 at 50.0 uL/sec
+Dispensing 210.0 uL into A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 90.0 uL/sec
+Air gap
+	Aspirating 10.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Aspirating 180.0 uL from A3 of USA Scientific 12 Well Reservoir 22 mL on 3 at 50.0 uL/sec
+Air gap
+	Aspirating 5.0 uL from A3 of USA Scientific 12 Well Reservoir 22 mL on 3 at 50.0 uL/sec
+Dispensing 210.0 uL into A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 90.0 uL/sec
+Aspirating 80.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Aspirating 80.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Aspirating 10.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid Waste on 11 at 150.0 uL/sec
+Blowing out at A1 of Liquid Waste on 11
+Aspirating 5.0 uL from A1 of Liquid Waste on 11 at 10.0 uL/sec
+Aspirating 80.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Dispensing 70.0 uL into A1 of Liquid Waste on 11 at 150.0 uL/sec
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from A6 of Opentrons 96 Tip Rack 300 µL on 9
+Aspirating 80.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Aspirating 80.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Aspirating 10.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Dispensing 300.0 uL into A1 of Liquid Waste on 11 at 150.0 uL/sec
+Blowing out at A1 of Liquid Waste on 11
+Aspirating 5.0 uL from A1 of Liquid Waste on 11 at 10.0 uL/sec
+Aspirating 80.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Dispensing 70.0 uL into A1 of Liquid Waste on 11 at 150.0 uL/sec
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Letting beads dry for 30 seconds.
+Delaying for 0 minutes and 30.0 seconds
+Line 496
+Disengaging Magnetic Module
+Picking up tip from A7 of Opentrons 96 Tip Rack 20 µL on 4
+Aspirating 17.5 uL from A4 of USA Scientific 12 Well Reservoir 22 mL on 3 at 50.0 uL/sec
+Dispensing 17.5 uL into A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 90.0 uL/sec
+Blowing out at A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1
+Aspirating 1.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Aspirating 10.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 10.0 uL into A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 10.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 10.0 uL into A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 16.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 16.0 uL into A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 16.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 16.0 uL into A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 16.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 16.0 uL into A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 16.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 16.0 uL into A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 16.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 16.0 uL into A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 16.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 16.0 uL into A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 16.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 16.0 uL into A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 16.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 16.0 uL into A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 16.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 16.0 uL into A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Dispensing 20.0 uL into A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 10.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 20.0 uL into A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 10.0 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 20.0 uL into A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Blowing out at A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1
+Touching tip
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from A8 of Opentrons 96 Tip Rack 20 µL on 4
+Aspirating 17.5 uL from A4 of USA Scientific 12 Well Reservoir 22 mL on 3 at 20.0 uL/sec
+Dispensing 17.5 uL into A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 50.0 uL/sec
+Blowing out at A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1
+Aspirating 1.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Aspirating 10.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 10.0 uL into A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 10.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 10.0 uL into A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 16.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 16.0 uL into A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 16.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 16.0 uL into A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 16.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 16.0 uL into A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 16.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 16.0 uL into A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 16.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 16.0 uL into A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 16.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 16.0 uL into A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 16.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 16.0 uL into A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 16.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 16.0 uL into A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 16.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 16.0 uL into A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Dispensing 20.0 uL into A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 10.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 20.0 uL into A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Aspirating 10.0 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 100.0 uL/sec
+Dispensing 20.0 uL into A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 200.0 uL/sec
+Blowing out at A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1
+Touching tip
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Incubating for 2 minutes.
+Delaying for 0 minutes and 12.0 seconds
+Line 502
+Engaging Magnetic Module and incubating for 6 minutes.
+Engaging Magnetic Module
+Delaying for 0 minutes and 36.0 seconds
+Picking up tip from A9 of Opentrons 96 Tip Rack 20 µL on 4
+Aspirating 15.5 uL from A4 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Dispensing 15.5 uL into A4 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 40.0 uL/sec
+Blowing out at A4 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2
+Touching tip
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from A10 of Opentrons 96 Tip Rack 20 µL on 4
+Aspirating 15.5 uL from A5 of Mag_Sample_Plate on Magnetic Module GEN2 on 1 at 10.0 uL/sec
+Dispensing 15.5 uL into A5 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 40.0 uL/sec
+Blowing out at A5 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2
+Touching tip
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Disengaging Magnetic Module
+Line 450
+Picking up tip from A11 of Opentrons 96 Tip Rack 20 µL on 4
+Aspirating 1.0 uL from A5 of Cool_Reagent_Plate on Temperature Module GEN2 on 6 at 10.0 uL/sec
+Aspirating 10.0 uL from A5 of Cool_Reagent_Plate on Temperature Module GEN2 on 6 at 10.0 uL/sec
+Dispensing 10.0 uL into A5 of Cool_Reagent_Plate on Temperature Module GEN2 on 6 at 30.0 uL/sec
+Aspirating 10.0 uL from A5 of Cool_Reagent_Plate on Temperature Module GEN2 on 6 at 10.0 uL/sec
+Dispensing 10.0 uL into A5 of Cool_Reagent_Plate on Temperature Module GEN2 on 6 at 30.0 uL/sec
+Aspirating 8.5 uL from A5 of Cool_Reagent_Plate on Temperature Module GEN2 on 6 at 10.0 uL/sec
+Dispensing 8.5 uL into A5 of Cool_Reagent_Plate on Temperature Module GEN2 on 6 at 30.0 uL/sec
+Aspirating 8.5 uL from A5 of Cool_Reagent_Plate on Temperature Module GEN2 on 6 at 10.0 uL/sec
+Dispensing 8.5 uL into A5 of Cool_Reagent_Plate on Temperature Module GEN2 on 6 at 30.0 uL/sec
+Aspirating 8.5 uL from A5 of Cool_Reagent_Plate on Temperature Module GEN2 on 6 at 10.0 uL/sec
+Dispensing 8.5 uL into A5 of Cool_Reagent_Plate on Temperature Module GEN2 on 6 at 30.0 uL/sec
+Aspirating 8.5 uL from A5 of Cool_Reagent_Plate on Temperature Module GEN2 on 6 at 10.0 uL/sec
+Dispensing 8.5 uL into A5 of Cool_Reagent_Plate on Temperature Module GEN2 on 6 at 30.0 uL/sec
+Blowing out at A5 of Cool_Reagent_Plate on Temperature Module GEN2 on 6
+Aspirating 1.0 uL from A5 of Cool_Reagent_Plate on Temperature Module GEN2 on 6 at 10.0 uL/sec
+Aspirating 10.0 uL from A5 of Cool_Reagent_Plate on Temperature Module GEN2 on 6 at 10.0 uL/sec
+Dispensing 10.0 uL into A5 of Cool_Reagent_Plate on Temperature Module GEN2 on 6 at 30.0 uL/sec
+Aspirating 10.0 uL from A5 of Cool_Reagent_Plate on Temperature Module GEN2 on 6 at 10.0 uL/sec
+Dispensing 10.0 uL into A5 of Cool_Reagent_Plate on Temperature Module GEN2 on 6 at 30.0 uL/sec
+Aspirating 3.5 uL from A5 of Cool_Reagent_Plate on Temperature Module GEN2 on 6 at 10.0 uL/sec
+Dispensing 3.5 uL into A5 of Cool_Reagent_Plate on Temperature Module GEN2 on 6 at 30.0 uL/sec
+Aspirating 3.5 uL from A5 of Cool_Reagent_Plate on Temperature Module GEN2 on 6 at 10.0 uL/sec
+Dispensing 3.5 uL into A5 of Cool_Reagent_Plate on Temperature Module GEN2 on 6 at 30.0 uL/sec
+Aspirating 15.5 uL from A5 of Cool_Reagent_Plate on Temperature Module GEN2 on 6 at 10.0 uL/sec
+Dispensing 20.0 uL into A4 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 30.0 uL/sec
+Aspirating 1.0 uL from A4 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 10.0 uL/sec
+Aspirating 10.0 uL from A4 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 10.0 uL/sec
+Dispensing 10.0 uL into A4 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 30.0 uL/sec
+Aspirating 10.0 uL from A4 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 10.0 uL/sec
+Dispensing 10.0 uL into A4 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 30.0 uL/sec
+Aspirating 15.5 uL from A4 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 10.0 uL/sec
+Dispensing 15.5 uL into A4 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 30.0 uL/sec
+Aspirating 15.5 uL from A4 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 10.0 uL/sec
+Dispensing 15.5 uL into A4 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 30.0 uL/sec
+Aspirating 15.5 uL from A4 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 10.0 uL/sec
+Dispensing 15.5 uL into A4 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 30.0 uL/sec
+Aspirating 15.5 uL from A4 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 10.0 uL/sec
+Dispensing 15.5 uL into A4 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 30.0 uL/sec
+Aspirating 15.5 uL from A4 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 10.0 uL/sec
+Dispensing 15.5 uL into A4 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 30.0 uL/sec
+Aspirating 15.5 uL from A4 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 10.0 uL/sec
+Dispensing 15.5 uL into A4 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 30.0 uL/sec
+Aspirating 15.5 uL from A4 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 10.0 uL/sec
+Dispensing 15.5 uL into A4 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 30.0 uL/sec
+Aspirating 15.5 uL from A4 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 10.0 uL/sec
+Dispensing 15.5 uL into A4 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 30.0 uL/sec
+Aspirating 15.5 uL from A4 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 10.0 uL/sec
+Dispensing 15.5 uL into A4 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 30.0 uL/sec
+Dispensing 20.0 uL into A4 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 30.0 uL/sec
+Blowing out at A4 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2
+Touching tip
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Picking up tip from A12 of Opentrons 96 Tip Rack 20 µL on 4
+Aspirating 1.0 uL from A5 of Cool_Reagent_Plate on Temperature Module GEN2 on 6 at 10.0 uL/sec
+Aspirating 10.0 uL from A5 of Cool_Reagent_Plate on Temperature Module GEN2 on 6 at 10.0 uL/sec
+Dispensing 10.0 uL into A5 of Cool_Reagent_Plate on Temperature Module GEN2 on 6 at 30.0 uL/sec
+Aspirating 10.0 uL from A5 of Cool_Reagent_Plate on Temperature Module GEN2 on 6 at 10.0 uL/sec
+Dispensing 10.0 uL into A5 of Cool_Reagent_Plate on Temperature Module GEN2 on 6 at 30.0 uL/sec
+Aspirating 3.5 uL from A5 of Cool_Reagent_Plate on Temperature Module GEN2 on 6 at 10.0 uL/sec
+Dispensing 3.5 uL into A5 of Cool_Reagent_Plate on Temperature Module GEN2 on 6 at 30.0 uL/sec
+Aspirating 3.5 uL from A5 of Cool_Reagent_Plate on Temperature Module GEN2 on 6 at 10.0 uL/sec
+Dispensing 3.5 uL into A5 of Cool_Reagent_Plate on Temperature Module GEN2 on 6 at 30.0 uL/sec
+Aspirating 15.5 uL from A5 of Cool_Reagent_Plate on Temperature Module GEN2 on 6 at 10.0 uL/sec
+Dispensing 20.0 uL into A5 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 30.0 uL/sec
+Aspirating 1.0 uL from A5 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 10.0 uL/sec
+Aspirating 10.0 uL from A5 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 10.0 uL/sec
+Dispensing 10.0 uL into A5 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 30.0 uL/sec
+Aspirating 10.0 uL from A5 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 10.0 uL/sec
+Dispensing 10.0 uL into A5 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 30.0 uL/sec
+Aspirating 15.5 uL from A5 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 10.0 uL/sec
+Dispensing 15.5 uL into A5 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 30.0 uL/sec
+Aspirating 15.5 uL from A5 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 10.0 uL/sec
+Dispensing 15.5 uL into A5 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 30.0 uL/sec
+Aspirating 15.5 uL from A5 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 10.0 uL/sec
+Dispensing 15.5 uL into A5 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 30.0 uL/sec
+Aspirating 15.5 uL from A5 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 10.0 uL/sec
+Dispensing 15.5 uL into A5 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 30.0 uL/sec
+Aspirating 15.5 uL from A5 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 10.0 uL/sec
+Dispensing 15.5 uL into A5 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 30.0 uL/sec
+Aspirating 15.5 uL from A5 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 10.0 uL/sec
+Dispensing 15.5 uL into A5 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 30.0 uL/sec
+Aspirating 15.5 uL from A5 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 10.0 uL/sec
+Dispensing 15.5 uL into A5 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 30.0 uL/sec
+Aspirating 15.5 uL from A5 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 10.0 uL/sec
+Dispensing 15.5 uL into A5 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 30.0 uL/sec
+Aspirating 15.5 uL from A5 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 10.0 uL/sec
+Dispensing 15.5 uL into A5 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 30.0 uL/sec
+Dispensing 20.0 uL into A5 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2 at 30.0 uL/sec
+Blowing out at A5 of NEST 96 Well Plate 100 µL PCR Full Skirt on 2
+Touching tip
+Dropping tip into A1 of Opentrons Fixed Trash on 12
+Pausing robot operation: Run Thermocycler off deck
+Line 564

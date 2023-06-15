@@ -1,0 +1,30 @@
+/home/patrick/code/git/opentrons_protocols
+0
+2021-04-21 12:21:29.556609
+Processing 8 samples using 1 columns
+Using 1 racks of p20 tips in slot(s) ['4']
+Using 3 racks of p300 tips in slot(s) ['2', '8', '9']
+'vol.to.add' refers to the volume added over the entire protocol, i.e. 500 * 2 = 1000 ul ethanol
+Fragmentation Master Mix
+{'reservoir.type': '96well', 'reservoir.volume': 18.0, 'vol.to.add': 15, 'total.volume': 144.0, 'reservoir.number': 1, 'well.uses': [1]}
+Reverse Transcription Master Mix
+{'reservoir.type': '96well', 'reservoir.volume': 7.2, 'vol.to.add': 6, 'total.volume': 57.6, 'reservoir.number': 1, 'well.uses': [1]}
+Adaptase Master Mix
+{'reservoir.type': '96well', 'reservoir.volume': 12.6, 'vol.to.add': 10.5, 'total.volume': 100.8, 'reservoir.number': 1, 'well.uses': [1]}
+Extension Master Mix
+{'reservoir.type': '96well', 'reservoir.volume': 27.6, 'vol.to.add': 23, 'total.volume': 220.8, 'reservoir.number': 1, 'well.uses': [1]}
+Ligation Master Mix
+{'reservoir.type': '96well', 'reservoir.volume': 18.0, 'vol.to.add': 15, 'total.volume': 144.0, 'reservoir.number': 1, 'well.uses': [1]}
+PCR Master Mix
+{'reservoir.type': '96well', 'reservoir.volume': 30.0, 'vol.to.add': 25, 'total.volume': 240.0, 'reservoir.number': 1, 'well.uses': [1]}
+Mag Beads
+{'reservoir.type': '96well', 'reservoir.volume': 281.64, 'vol.to.add': 234.7, 'total.volume': 2253.12, 'reservoir.number': 1, 'well.uses': [1]}
+Ethanol
+{'reservoir.type': '96well', 'reservoir.volume': 2160.0, 'vol.to.add': 1800, 'total.volume': 17280.0, 'reservoir.number': 1, 'well.uses': [1]}
+Low EDTA TE
+{'reservoir.type': '96well', 'reservoir.volume': 186.0, 'vol.to.add': 155, 'total.volume': 1488.0, 'reservoir.number': 1, 'well.uses': [1]}
+magnetic module in slot 1
+liquid waste in slot 11
+thermal module in slot 6
+rt_reagents 96-well plate in slot 3
+cold 96-well plate in slot 2
